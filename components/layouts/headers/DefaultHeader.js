@@ -3,6 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Fragment } from 'react';
+import { useWeb3React } from '@web3-react/core';
 
 const navigations = [
     { name: 'Solutions', href: '/solutions' },
@@ -13,6 +14,8 @@ const navigations = [
 ];
 
 export default function DefaultHeader() {
+    const { account } = useWeb3React();
+
     return (
         <Popover as="header" className="relative">
             <div className="bg-zinc-800 pt-4">
@@ -67,7 +70,9 @@ export default function DefaultHeader() {
                         </Link>
                         <Link href="/login" passHref>
                             <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 transition duration-300">
-                                Connect a Wallet
+                                {account
+                                    ? `Account ${account.substring(2, 6)}`
+                                    : 'Connect Wallet'}
                             </a>
                         </Link>
                     </div>
