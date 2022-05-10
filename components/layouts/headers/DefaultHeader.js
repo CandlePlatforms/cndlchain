@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Fragment } from 'react';
 import { useWeb3React } from '@web3-react/core';
+import ConnectWalletButton from '../../ConnectWalletButton';
 
 const navigations = [
     { name: 'Solutions', href: '/solutions' },
@@ -68,13 +69,7 @@ export default function DefaultHeader() {
                                 Access Wallets
                             </a>
                         </Link>
-                        <Link href="/login" passHref>
-                            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 transition duration-300">
-                                {account
-                                    ? `Account ${account.substring(2, 6)}`
-                                    : 'Connect Wallet'}
-                            </a>
-                        </Link>
+                        <ConnectWalletButton page="/" />
                     </div>
                 </nav>
             </div>
