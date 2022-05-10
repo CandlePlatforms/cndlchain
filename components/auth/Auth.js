@@ -2,6 +2,10 @@ import { ChevronLeftIcon } from '@heroicons/react/solid';
 import BetterLink from '../links/BetterLink';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import React, { useState, useEffect } from 'react';
+import { useWeb3React, UnsupportedChainIdError } from '@web3-react/core';
+
+import { injected, walletconnect } from '../../constants/connectors';
 
 const walletProviders = [
     {
@@ -9,38 +13,67 @@ const walletProviders = [
         description: 'Connect using browser wallet',
         url: 'https://metamask.io/',
         imageUrl: '/images/icons/metamask.svg',
+        connector: injected,
     },
     {
         name: 'Coinbase Wallet',
         description: 'Connect using Coinbase Wallet',
         url: 'https://www.coinbase.com/',
         imageUrl: '/images/icons/coinbase.svg',
+        connector: '',
     },
     {
         name: 'Bitski Wallet',
         description: 'Connect using Bitski Wallet',
         url: 'https://bitski.com/',
         imageUrl: '/images/icons/bitski.svg',
+        connector: '',
     },
     {
         name: 'Venly',
         description: 'Connect using Venly Wallet',
         url: 'https://venly.io/',
         imageUrl: '/images/icons/venly.svg',
+        connector: '',
     },
     {
         name: 'Wallet Connect',
         description: 'Connect using mobile wallet',
         url: 'https://walletconnect.org/',
         imageUrl: '/images/icons/wallet-connect.svg',
+        connector: walletconnect,
     },
 ];
 
 export default function Auth() {
     const router = useRouter();
 
+    const {
+        activate,
+        active,
+        account,
+        deactivate,
+        connector,
+        error,
+        setError,
+    } = useWeb3React();
+
+    const [activatingConnector, setActivatingConnector] = useState();
+
     const nagivateBack = () => {
         router.back();
+    };
+
+    useEffect(() => {
+        if (activatingConnector && activatingConnector === connector) {
+            setActivatingConnector(undefined);
+        }
+    }, [activatingConnector, connector]);
+
+    const onConnectWallet = async (provider) => {
+        setActivatingConnector(provider.connector);
+        await activate(provider.connector);
+        router.push('/wallets');
     };
 
     return (
@@ -63,10 +96,11 @@ export default function Auth() {
 
                     <div className="mt-8 space-y-4">
                         {walletProviders.map((provider) => (
-                            <BetterLink
+                            <div
                                 key={provider.name}
-                                href={provider.url}
-                                target="_blank"
+                                // href={provider.url}
+                                onClick={() => onConnectWallet(provider)}
+                                // target="_blank"
                                 className="flex items-center space-x-2 bg-black/10 hover:bg-white/10 px-4 py-2 rounded-lg transition duration-300"
                             >
                                 <Image
@@ -85,7 +119,7 @@ export default function Auth() {
                                         {provider.description}
                                     </div>
                                 </div>
-                            </BetterLink>
+                            </div>
                         ))}
                     </div>
                 </div>

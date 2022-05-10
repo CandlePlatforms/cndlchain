@@ -6,6 +6,7 @@ import Link from 'next/link';
 import RecentTransactions from '../components/stats/RecentTransactions';
 import { useEffect } from 'react';
 import { supabase } from '../utils/clients/supabase';
+import { useWeb3React } from '@web3-react/core';
 
 HomePage.getLayout = (page) => {
     return <DefaultLayout>{page}</DefaultLayout>;
@@ -15,6 +16,7 @@ export default function HomePage() {
     useEffect(() => {
         supabase.auth.signOut();
     }, []);
+    const { account } = useWeb3React();
 
     return (
         <>
@@ -56,7 +58,12 @@ export default function HomePage() {
                                 </p>
                                 <div className="mt-6">
                                     <div className="sm:flex">
-                                        <Link href="/login" passHref>
+                                        <Link
+                                            href={
+                                                account ? '/wallets' : '/login'
+                                            }
+                                            passHref
+                                        >
                                             <a className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">
                                                 Get started
                                             </a>

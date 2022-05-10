@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
+import ConnectWalletButton from '../../ConnectWalletButton';
+
 const navigation = [];
 
 export default function WalletsOnboardHeader() {
@@ -60,11 +62,7 @@ export default function WalletsOnboardHeader() {
                             </a>
                         </Link>
 
-                        <Link href="/login" passHref>
-                            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 transition duration-300">
-                                Connect to a Wallet
-                            </a>
-                        </Link>
+                        <ConnectWalletButton />
                     </div>
                 </nav>
             </div>
