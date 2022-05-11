@@ -67,7 +67,7 @@ const generateBlocks = async (supabase, req, res) => {
                     jsonrpc: '2.0',
                     method: 'eth_getBlockByNumber',
                     params: [hexNumber, true],
-                    id: 0,
+                    id: 1,
                 }),
             });
 
