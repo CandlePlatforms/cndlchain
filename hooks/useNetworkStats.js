@@ -21,7 +21,7 @@ export const NetworkStatsProvider = (props) => {
                     jsonrpc: '2.0',
                     method: 'eth_blockNumber',
                     params: [],
-                    id: 1,
+                    id: 0, //changed from 1
                 }),
             });
 
