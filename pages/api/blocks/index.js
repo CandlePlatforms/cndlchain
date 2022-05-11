@@ -125,7 +125,7 @@ const generateBlocks = async (supabase, req, res) => {
                 latest_block: latestBlockNumber + 10,
                 latest_transactions: latest_transactions + totalTransactions,
             })
-            .eq('id', '014df7e4-b6b7-4398-b4e9-a2fab08712fa')
+            .eq('id', 'db7058be-29bf-4216-8243-b41f2e8ef99b')
             .single();
 
         if (newChainOverviewError)
