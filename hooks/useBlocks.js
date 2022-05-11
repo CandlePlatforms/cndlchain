@@ -65,7 +65,7 @@ export const BlocksProvider = (props) => {
                     jsonrpc: '2.0',
                     method: 'eth_getBlockByHash',
                     params: [hash, true],
-                    id: 1,
+                    id: 0,
                 }),
             });
 
