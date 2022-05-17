@@ -11,20 +11,19 @@
         max-width: 1280px;
     }
 
-    .display-2 {
-        font-size: 3.5rem;
-        font-weight: 900;
+    .big-title {
+        @apply text-5xl;
+        @apply font-black;
         line-height: 1.2;
     }
 
-    .h2, h2 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 1.2;
+    .medium-title {
+        @apply text-3xl;
+        @apply font-bold;
     }
 
-    .grid-cols-4 {
-        grid-template-columns: repeat(4,minmax(0,1fr))!important;
+    .grid-cols-auto {
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     }
 
 }
