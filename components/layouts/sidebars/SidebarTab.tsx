@@ -22,7 +22,7 @@ export default function SidebarTab({
             href={href}
             className={`${extraCss} ${defaultCss} ${className}`}
         >
-            <button className="h-full w-fit flex space-x-2 items-center rounded-lg">
+            <button className="w-fit flex space-x-2 items-center rounded-lg">
                 {isActive
                     ? activeIcon ?? inactiveIcon ?? children
                     : inactiveIcon ?? children}
