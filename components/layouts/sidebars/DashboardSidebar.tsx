@@ -31,7 +31,7 @@ export default function DashboardSidebar({className} : Props) {
 
     return (
         <div
-            className={`${className} w-full fixed z-50 h-full max-h-full overflow-x-visible border-r bg-white/70 backdrop-blur-lg dark:border-zinc-800/80 dark:bg-zinc-800/70 dark:text-white md:bg-white md:dark:bg-zinc-900`}
+            className={`${className} w-full fixed z-50 h-full max-h-full overflow-x-visible border-r bg-white/70 backdrop-blur-lg`}
         >
             <div className="flex h-full max-h-full flex-col justify-between">
                 <div className="flex-none">
@@ -51,66 +51,93 @@ export default function DashboardSidebar({className} : Props) {
 
                 <nav
                     id="sidebar-nav"
-                    className="place-content-stretch space-y-2 md:grid md:grid-cols-1 h-full overflow-y-auto scrollbar-none"
+                    className="place-content-stretch space-y-2 h-full overflow-y-auto scrollbar-none relative"
                 >
                     <div className="h-0" />
+                    <div>
+                        <SidebarTab
+                            href="/wallets/dashboard/assets"
+                            label="Assets on Candle"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedArchiveIcon className="h-5 w-5" />
+                            }
+                            activeIcon={<SolidArchiveIcon className="h-5 w-5" />}
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/bridge"
+                            label="Bridge Assets"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedRefreshIcon className="h-5 w-5" />
+                            }
+                            activeIcon={<SolidRefreshIcon className="h-5 w-5" />}
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/transactions"
+                            label="Transactions"
+                            currentPath={router.pathname}
+                            inactiveIcon={<OutlinedScaleIcon className="h-5 w-5" />}
+                            activeIcon={<SolidScaleIcon className="h-5 w-5" />}
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/swap"
+                            label="Token Swap"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedSwitchHorizontalIcon className="h-5 w-5" />
+                            }
+                            activeIcon={
+                                <SolidSwitchHorizontalIcon className="h-5 w-5" />
+                            }
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/gas-swap"
+                            label="Swap for Gas token"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedSwitchVerticalIcon className="h-5 w-5" />
+                            }
+                            activeIcon={
+                                <SolidSwitchVerticalIcon className="h-5 w-5" />
+                            }
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/burn"
+                            label="Burn Candle"
+                            currentPath={router.pathname}
+                            inactiveIcon={<OutlinedFireIcon className="h-5 w-5" />}
+                            activeIcon={<SolidFireIcon className="h-5 w-5" />}
+                        />
+                    </div>
 
-                    <SidebarTab
-                        href="/wallets/dashboard/assets"
-                        label="Assets on Candle"
-                        currentPath={router.pathname}
-                        inactiveIcon={
-                            <OutlinedArchiveIcon className="h-5 w-5" />
-                        }
-                        activeIcon={<SolidArchiveIcon className="h-5 w-5" />}
-                    />
-                    <SidebarTab
-                        href="/wallets/dashboard/bridge"
-                        label="Bridge Assets"
-                        currentPath={router.pathname}
-                        inactiveIcon={
-                            <OutlinedRefreshIcon className="h-5 w-5" />
-                        }
-                        activeIcon={<SolidRefreshIcon className="h-5 w-5" />}
-                    />
-                    <SidebarTab
-                        href="/wallets/dashboard/transactions"
-                        label="Transactions"
-                        currentPath={router.pathname}
-                        inactiveIcon={<OutlinedScaleIcon className="h-5 w-5" />}
-                        activeIcon={<SolidScaleIcon className="h-5 w-5" />}
-                    />
-                    <SidebarTab
-                        href="/wallets/dashboard/swap"
-                        label="Token Swap"
-                        currentPath={router.pathname}
-                        inactiveIcon={
-                            <OutlinedSwitchHorizontalIcon className="h-5 w-5" />
-                        }
-                        activeIcon={
-                            <SolidSwitchHorizontalIcon className="h-5 w-5" />
-                        }
-                    />
-                    <SidebarTab
-                        href="/wallets/dashboard/gas-swap"
-                        label="Swap for Gas token"
-                        currentPath={router.pathname}
-                        inactiveIcon={
-                            <OutlinedSwitchVerticalIcon className="h-5 w-5" />
-                        }
-                        activeIcon={
-                            <SolidSwitchVerticalIcon className="h-5 w-5" />
-                        }
-                    />
-                    <SidebarTab
-                        href="/wallets/dashboard/burn"
-                        label="Burn Candle"
-                        currentPath={router.pathname}
-                        inactiveIcon={<OutlinedFireIcon className="h-5 w-5" />}
-                        activeIcon={<SolidFireIcon className="h-5 w-5" />}
-                    />
-
-                    <div className="h-8 md:h-4" />
+                    <div className="absolute bottom-20 w-full">
+                        <SidebarTab
+                            href="/wallets/dashboard/new"
+                            label="What's New?"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedArchiveIcon className="h-5 w-5" />
+                            }
+                            activeIcon={<SolidArchiveIcon className="h-5 w-5" />}
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/wallet"
+                            label="Testnet Wallet"
+                            currentPath={router.pathname}
+                            inactiveIcon={
+                                <OutlinedRefreshIcon className="h-5 w-5" />
+                            }
+                            activeIcon={<SolidRefreshIcon className="h-5 w-5" />}
+                        />
+                        <SidebarTab
+                            href="/wallets/dashboard/support"
+                            label="Support"
+                            currentPath={router.pathname}
+                            inactiveIcon={<OutlinedScaleIcon className="h-5 w-5" />}
+                            activeIcon={<SolidScaleIcon className="h-5 w-5" />}
+                        />
+                    </div>
                 </nav>
             </div>
         </div>
