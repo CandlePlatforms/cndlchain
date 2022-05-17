@@ -82,15 +82,15 @@ export default function WalletDashboard() {
     const total = currencies.length / perpage;
     const [display, setDisplay] = useState(currencies);
 
-    const search = (event) => {
+    const search = (event: React.ChangeEvent<HTMLInputElement>) => {
         const str = event.target.value;
         setPage(1);
         const res = currencies.filter(currency => currency.name.indexOf(str) != -1);
         setDisplay(res);
     }
 
-    const setPageCount = (event) => {
-        setPerPage(event.target.value);
+    const setPageCount = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        setPerPage(+event.target.value);
     }
 
     return <div className="bg-white text-black">
@@ -195,7 +195,7 @@ export default function WalletDashboard() {
                     {
                         [...Array(Math.ceil(display.length / perpage))].map((val, index) => (
                             <li className="ml-2" key={"pagination" + index}>
-                                <button href="#" className={"rounded-lg p-2 w-10 h-10 leading-tight bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"+(index + 1 == page ? " bg-violet-600 text-white":"")} onClick={() => setPage(index + 1)}>
+                                <button className={"rounded-lg p-2 w-10 h-10 leading-tight bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700"+(index + 1 == page ? " bg-violet-600 text-white":"")} onClick={() => setPage(index + 1)}>
                                     {index + 1}
                                 </button>
                             </li>
