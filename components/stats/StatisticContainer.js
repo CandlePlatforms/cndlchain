@@ -4,8 +4,6 @@ import CircularLoadingIndicator from '../loaders/CircularLoadingIndicator';
 export default function StatisticContainer({ data, buttonLabel, onClick }) {
     const [noData, setNoData] = useState(false);
 
-    console.log('data', data);
-
     useEffect(() => {
         const interval = setInterval(() => {
             if (data?.currentStats == null || data?.currentStats == undefined)
@@ -37,18 +35,13 @@ export default function StatisticContainer({ data, buttonLabel, onClick }) {
                 ) : data?.currentStats != null ? (
                     <div className="flex items-baseline text-2xl font-semibold text-indigo-200">
                         {data?.currentStats}
-
-                        {data?.secondaryText && (
-                            <span className="ml-2 text-sm font-medium text-gray-300">
-                                {data?.secondaryText}
-                            </span>
-                        )}
-
-                        {data?.previousStats && (
-                            <span className="ml-2 text-sm font-medium text-gray-300">
-                                {data?.previousStats}
-                            </span>
-                        )}
+                        {data?.currentStats != 0 &&
+                            (data?.secondaryText || data?.previousStats) && (
+                                <span className="ml-2 text-sm font-medium text-gray-300">
+                                    {data?.secondaryText ||
+                                        'from ' + data?.previousStats}
+                                </span>
+                            )}
                     </div>
                 ) : (
                     <CircularLoadingIndicator className="mt-2 w-8 h-8" />
