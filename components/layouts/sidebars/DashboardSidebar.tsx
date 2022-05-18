@@ -19,7 +19,6 @@ import {
 } from '@heroicons/react/solid';
 
 import SidebarTab from './SidebarTab';
-import { useRouter } from 'next/router';
 import BetterLink from '../../links/BetterLink';
 
 interface Props {
@@ -27,14 +26,12 @@ interface Props {
 }
 
 export default function DashboardSidebar({className} : Props) {
-    const router = useRouter();
-
     return (
         <div
-            className={`${className} w-full fixed z-50 h-full max-h-full overflow-x-visible border-r bg-white/70 backdrop-blur-lg`}
+            className={`${className} w-full md:fixed z-50 h-full max-h-full overflow-x-visible border-r md:bg-white/70 backdrop-blur-lg`}
         >
             <div className="flex h-full max-h-full flex-col justify-between">
-                <div className="flex-none">
+                <div className="hidden md:block flex-none">
                     <div className="relative items-center justify-center px-2.5 py-4">
                         <div className="mx-2 mt-2 flex justify-center py-4 md:py-0">
                             <BetterLink href="/" className="w-16 h-16">
@@ -58,7 +55,6 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/assets"
                             label="Assets on Candle"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedArchiveIcon className="h-5 w-5" />
                             }
@@ -67,7 +63,6 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/bridge"
                             label="Bridge Assets"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedRefreshIcon className="h-5 w-5" />
                             }
@@ -76,14 +71,12 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/transactions"
                             label="Transactions"
-                            currentPath={router.pathname}
                             inactiveIcon={<OutlinedScaleIcon className="h-5 w-5" />}
                             activeIcon={<SolidScaleIcon className="h-5 w-5" />}
                         />
                         <SidebarTab
                             href="/wallets/dashboard/swap"
                             label="Token Swap"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedSwitchHorizontalIcon className="h-5 w-5" />
                             }
@@ -94,7 +87,6 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/gas-swap"
                             label="Swap for Gas token"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedSwitchVerticalIcon className="h-5 w-5" />
                             }
@@ -105,17 +97,15 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/burn"
                             label="Burn Candle"
-                            currentPath={router.pathname}
                             inactiveIcon={<OutlinedFireIcon className="h-5 w-5" />}
                             activeIcon={<SolidFireIcon className="h-5 w-5" />}
                         />
                     </div>
 
-                    <div className="absolute bottom-20 w-full">
+                    <div className="md:absolute bottom-20 w-full">
                         <SidebarTab
                             href="/wallets/dashboard/new"
                             label="What's New?"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedArchiveIcon className="h-5 w-5" />
                             }
@@ -124,7 +114,6 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/wallet"
                             label="Testnet Wallet"
-                            currentPath={router.pathname}
                             inactiveIcon={
                                 <OutlinedRefreshIcon className="h-5 w-5" />
                             }
@@ -133,7 +122,6 @@ export default function DashboardSidebar({className} : Props) {
                         <SidebarTab
                             href="/wallets/dashboard/support"
                             label="Support"
-                            currentPath={router.pathname}
                             inactiveIcon={<OutlinedScaleIcon className="h-5 w-5" />}
                             activeIcon={<SolidScaleIcon className="h-5 w-5" />}
                         />
