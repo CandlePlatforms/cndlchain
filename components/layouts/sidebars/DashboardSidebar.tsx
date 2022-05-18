@@ -31,7 +31,7 @@ export default function DashboardSidebar({className} : Props) {
             className={`${className} w-full md:fixed z-50 h-full max-h-full overflow-x-visible border-r md:bg-white/70 backdrop-blur-lg`}
         >
             <div className="flex h-full max-h-full flex-col justify-between">
-                <div className="flex-none">
+                <div className="hidden md:block flex-none">
                     <div className="relative items-center justify-center px-2.5 py-4">
                         <div className="mx-2 mt-2 flex justify-center py-4 md:py-0">
                             <BetterLink href="/" className="w-16 h-16">
