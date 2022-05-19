@@ -196,6 +196,7 @@ export default function DefaultFooter() {
                     </p>
                 </div>
             </div>
+            <script src="//code.tidio.co/bga3j5sbenpxlnttpeyg1zk2yew5k0ep.js" async></script>
         </footer>
     );
 }

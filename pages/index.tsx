@@ -107,7 +107,6 @@ export default function HomePage() {
                                 features that will be added to the platform in
                                 the coming months.
                             </p>
-                            <script src="//code.tidio.co/bga3j5sbenpxlnttpeyg1zk2yew5k0ep.js" async></script>
                         </div>
                     </div>
                 </div>
