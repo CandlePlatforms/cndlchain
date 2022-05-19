@@ -11,7 +11,7 @@ const navigation: Array<any> = [];
 export default function WalletsOnboardHeader() {
     return (
         <Popover as="header" className="relative">
-            <div className="bg-zinc-800 pt-4">
+            <div className="bg-zinc-800 py-2">
                 <nav
                     className="relative mx-auto flex items-center justify-between px-4 sm:px-6"
                     aria-label="Global"

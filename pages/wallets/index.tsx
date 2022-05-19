@@ -42,15 +42,15 @@ export default function WalletsPage() {
             <BetterLink
                 key={feature.title}
                 href={feature.url}
-                className="cursor-pointer flex h-64 bg-zinc-700/70 hover:bg-zinc-700 hover:-translate-y-2 p-4 rounded-lg flex-col items-center justify-between transition duration-300"
+                className="cursor-pointer shadow-2xl flex h-80 bg-white p-4 rounded-lg flex-col items-center justify-between transition duration-300"
             >
-                <div className="text-center text-white font-bold text-2xl">
+                <div className="text-center text-black font-semibold text-2xl">
                     {feature.title}
                 </div>
 
                 <SunIcon className="my-8 w-20 h-20 text-yellow-200" />
 
-                <div className="text-center h-1/2 text-base text-zinc-300">
+                <div className="text-center h-1/2 text-base text-black">
                     {feature.description}
                 </div>
             </BetterLink>
@@ -58,9 +58,9 @@ export default function WalletsPage() {
     };
 
     return (
-        <div className="p-8">
+        <div className="p-8 bg-[#f8f9fa]">
             <div className="cursor-default flex flex-col items-center justify-center md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-                <div className="text-center text-2xl lg:text-4xl">
+                <div className="text-center text-2xl lg:text-4xl font-bold">
                     Getting started with
                 </div>
                 <div className="px-4 py-2 text-center font-semibold text-lg md:text-2xl rounded-full bg-green-500/20 text-green-300">
@@ -68,7 +68,7 @@ export default function WalletsPage() {
                 </div>
             </div>
 
-            <div className="mt-2 text-center text-lg text-zinc-300">
+            <div className="mt-2 text-center text-lg text-black">
                 The safe, fast, and secure way to send and receive crypto assets
                 on Candle Chain Network.
             </div>

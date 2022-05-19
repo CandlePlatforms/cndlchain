@@ -1,9 +1,3 @@
-import { DashboardLayout } from '../../../components/layouts/DashboardLayout';
+import Assets from './assets';
 
-WalletDashboard.getLayout = (page: any) => {
-    return <DashboardLayout>{page}</DashboardLayout>;
-};
-
-export default function WalletDashboard() {
-    return <div></div>;
-}
+export default Assets;
