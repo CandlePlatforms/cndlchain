@@ -20,7 +20,7 @@ export default function StatisticContainer({ data, buttonLabel, onClick }) {
                 {onClick && (
                     <span>
                         <button
-                            className="ml-2 px-2 py-0.5 rounded-lg bg-indigo-500/30 hover:bg-indigo-400/30 text-indigo-300 transition duration-300"
+                            className="ml-2 px-2 py-0.5 rounded-lg bg-blue-500/30 hover:bg-blue-400/30 text-blue-300 transition duration-300"
                             onClick={onClick}
                         >
                             {buttonLabel ?? 'Button'}
@@ -33,7 +33,7 @@ export default function StatisticContainer({ data, buttonLabel, onClick }) {
                 {noData ? (
                     <div className="text-zinc-400">No data available</div>
                 ) : data?.currentStats != null ? (
-                    <div className="flex items-baseline text-2xl font-semibold text-indigo-200">
+                    <div className="flex items-baseline text-2xl font-semibold text-blue-200">
                         {data?.currentStats}
                         {data?.currentStats != 0 &&
                             (data?.secondaryText || data?.previousStats) && (

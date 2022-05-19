@@ -30,7 +30,7 @@ export default function DashboardHeader() {
                     </div>
                     <div className="hidden md:flex md:items-center md:space-x-6">
                         <Link href="/" passHref>
-                            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-full text-white bg-indigo-500/40 hover:bg-indigo-600 transition duration-300">
+                            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-full text-white bg-blue-500/40 hover:bg-blue-600 transition duration-300">
                                 Switch to Candle
                             </a>
                         </Link>

@@ -44,11 +44,11 @@ export default function HomePage() {
                                     <span>
                                         A scaleable, efficent place for{' '}
                                     </span>
-                                    <span className="text-indigo-400">
+                                    <span className="text-sky-400">
                                         developers to build on web3.
                                     </span>
                                 </h1>
-                                <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                                <p className="mt-3 text-base text-white-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                                     Candle believes in Web3 for all. Candle is a
                                     decentralised EVM based scaling platform
                                     that enables developers to build scalable
@@ -64,7 +64,7 @@ export default function HomePage() {
                                             }
                                             passHref
                                         >
-                                            <a className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">
+                                            <a className="block text-center w-full py-3 px-4 rounded-md shadow bg-sky-500 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900">
                                                 Get started
                                             </a>
                                         </Link>
@@ -87,7 +87,7 @@ export default function HomePage() {
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                    src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
+                                    src={'/images/cloud-illustration-indigo-400.svg'}
                                     alt=""
                                 />
                             </div>

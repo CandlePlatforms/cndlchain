@@ -7,7 +7,7 @@ export default function ConnectWalletButton() {
 
     return (
         <Link href="/login" passHref>
-            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 transition duration-300">
+            <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 transition duration-300">
                 {account ? (
                     <div className="inline-flex items-center">
                         <Image
