@@ -1,15 +1,18 @@
+import { useRouter } from 'next/router';
 import BetterLink from '../../links/BetterLink';
 
 export default function SidebarTab({
     label,
     href,
-    currentPath,
     className,
     activeIcon,
     inactiveIcon,
     children,
 }: any) {
-    const isActive = currentPath.startsWith(href);
+
+    const router = useRouter();
+
+    const isActive = router.pathname.startsWith(href);
 
     const extraCss = isActive
         ? 'text-white bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 dark:hover:bg-zinc-700/40 dark:from-blue-400/50 dark:via-purple-500/50 dark:to-red-500/50'
