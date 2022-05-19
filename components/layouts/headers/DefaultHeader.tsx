@@ -19,7 +19,7 @@ export default function DefaultHeader() {
 
     return (
         <Popover as="header" className="relative">
-            <div className="bg-zinc-800 pt-4">
+            <div className="bg-blue-600 pt-4">
                 <nav
                     className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
                     aria-label="Global"
@@ -31,8 +31,8 @@ export default function DefaultHeader() {
                                     <span className="sr-only">Candle</span>
                                     <div className="w-16 h-16">
                                         <Image
-                                            width={251}
-                                            height={251}
+                                            width={60}
+                                            height={60}
                                             src="/images/logo.png"
                                             alt="Candle logo"
                                         />
@@ -56,7 +56,7 @@ export default function DefaultHeader() {
                                 <a
                                     key={item.name}
                                     href={item.href}
-                                    className="text-base font-medium text-white/50 hover:text-zinc-100 transition duration-300"
+                                    className="text-base font-medium text-white/70 hover:text-zinc-100 transition duration-300"
                                 >
                                     {item.name}
                                 </a>
@@ -65,7 +65,7 @@ export default function DefaultHeader() {
                     </div>
                     <div className="hidden md:flex md:items-center md:space-x-6">
                         <Link href="/wallets" passHref>
-                            <a className="inline-flex font-semibold items-center text-zinc-400 hover:text-white transition duration-300">
+                            <a className="inline-flex font-semibold items-center text-zinc-200 hover:text-white transition duration-300">
                                 Access Wallets
                             </a>
                         </Link>
