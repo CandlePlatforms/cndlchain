@@ -1,0 +1,1195 @@
+[
+  {
+    "isNew": true,
+    "description": "4EVERLAND is a Web 3 cloud computing platform.",
+    "img": "4everland.png",
+    "title": "4EVERLAND",
+    "type": [
+      "Infrastructure"
+    ],
+    "twitter": "https://twitter.com/4everland_org",
+    "website": "https://www.4everland.org/"
+  },
+  {
+    "isNew": true,
+    "description": "Backed by Arena and Paradigm, Reddio enables developers embed NFTs into their web, desktop and mobile apps with massive scalability and zero gas fee for off-chain with the world's first easy-to-use composable APIs. ",
+    "img": "reddio.png",
+    "title": "Reddio",
+    "type": [
+      "Digital ID",
+      "NFT",
+      "Infrastructure"
+    ],
+    "twitter": "https://twitter.com/reddio_com",
+    "website": "https://www.reddio.com"
+  },
+  {
+    "isNew": true,
+    "description": "RSS3 is the Feed of Web3. ",
+    "img": "rss3.png",
+    "title": "RSS3",
+    "type": [
+      "Infrastructure"
+    ],
+    "twitter": "https://twitter.com/rss3_",
+    "website": "https://rss3.io/"
+  },
+  {
+    "isNew": true,
+    "description": "Onramp to ZkSync",
+    "img": "on-juno.png",
+    "title": "OnJuno",
+    "type": [
+      "Gateway"
+    ],
+    "twitter": "https://twitter.com/OnJunoHQ",
+    "website": "https://www.onjuno.com"
+  },
+  {
+    "isNew": true,
+    "description": "Omnia is a decentralized protocol that allows easy, safe and decentralized access to multiple blockchain applications. Omnia has a strong focus on privacy which gives users untraceable access to the blockchain.",
+    "img": "omniatech.svg",
+    "title": "Omniatech",
+    "type": [
+      "Infra"
+    ],
+    "twitter": "https://twitter.com/omnia_protocol",
+    "website": "https://Omniatech.io"
+  },
+  {
+    "isNew": true,
+    "description": "Standard Protocol builds multichain self sovereign decentralized reserve bank, bringing truly self-custodial decentralized finance",
+    "img": "standard-protocol.png",
+    "title": "Standard Protocol",
+    "type": [
+      "DeFi"
+    ],
+    "twitter": "https://www.twitter.com/standardweb3",
+    "website": "https://standard.tech"
+  },
+  {
+    "isNew": true,
+    "description": "Homespace is a decentralised Metaverse with NFT-based economics and photorealistic graphics. The complete project consists of these parts: Metaverse, Social Network, NFT Marketplace, and AI technologies.",
+    "img": "homespace.svg",
+    "title": "Homespace",
+    "type": [
+      "NFT"
+    ],
+    "twitter": "https://twitter.com/HomespaceNFT",
+    "website": "https://homespace.is/"
+  },
+  {
+    "isNew": true,
+    "description": "BitKeep is one of the most comprehensive wallet platform combining Defi, Dapps, NFT Market Place, CrossChain Dex Aggregator, Bridge and most importantly Multi-Chain LaunchPad,NFT Marketplace.",
+    "img": "bitkeep.png",
+    "title": "BitKeep Wallet",
+    "type": [
+      "Wallet"
+    ],
+    "twitter": "https://twitter.com/BitKeepOS",
+    "website": "https://bitkeep.com/"
+  },
+  {
+    "isNew": false,
+    "description": "CryptoSwap is a simple and efficient decentralized exchange (DEX) that scales. By introducing liquidity options, it gives liquidity providers more power to affect price.",
+    "img": "сrypto-swap-white.svg",
+    "title": "CryptoSwap",
+    "type": [
+      "DeFi"
+    ],
+    "twitter": "https://twitter.com/cryptoswaporg",
+    "website": "https://cryptoswap.org"
+  },
+  {
+    "isNew": false,
+    "description": "NFTScan is a professional NFT asset explorer and data open platform.",
+    "img": "NFTScan.png",
+    "type": [
+      "NFT"
+    ],
+    "title": "NFTScan",
+    "twitter": "https://twitter.com/nftscan_com",
+    "website": "https://www.nftscan.com/"
+  },
+  {
+    "isNew": false,
+    "description": "Introducing The Sell Outs. Your new favourite band that\u2019s big on ego and low on morals that pays YOU to sell out. ",
+    "img": "thesellouts.svg",
+    "title": "The Sell Outs",
+    "type": [
+      "NFT"
+    ],
+    "twitter": "https://twitter.com/TheSellOutsNFT",
+    "website": "https://thesellouts.xyz"
+  },
+  {
+    "isNew": false,
+    "description": "Coins.ph is the easiest way to send money, buy load, pay bills, trade crypto and more. Regulated by the Bangko Sentral ng Pilipinas.",
+    "img": "coinsph-white.svg",
+    "title": "Coins.ph",
+    "type": [
+      "Gateways/CEX"
+    ],
+    "twitter": "https://twitter.com/coinsph",
+    "website": "https://coins.ph/"
+  },
+  {
+    "isNew": false,
+    "description": "\ud83c\udf0e FIRST Multichain Order Book DEX built for the Interoperable Future!",
+    "img": "satis.png",
+    "title": "Sat.is",
+    "type": [
+      "DeFi"
+    ],
+    "twitter": "https://twitter.com/SatisDEX",
+    "website": "https://Sat.is"
+  },
+  {
+    "isNew": false,
+    "description": "A community for developers to collaborate and monetize their skills while working on Open Source projects with bounties.",
+    "img": "gitcoin.png",
+    "title": "GitCoin",
+    "type": [
+      "Public Goods",
+      "Payments"
+    ],
+    "twitter": "https://twitter.com/gitcoin",
+    "website": "https://gitcoin.co/"
+  },
+  {
+    "isNew": false,
+    "description": "Verilog is a full stack Web3 security solution provider, covering protocol layer, application layer, and community layer.",
+    "img": "verilog.svg",
+    "title": "Verilog Solutions",
+    "type": [
+      "Infrastructure"
+    ],
+    "twitter": "https://twitter.com/verilog_audit",
+    "website": "https://www.verilog.solutions/"
+  },
+  {
+    "title": "Storj",
+    "isNew": false,
+    "type": [
+      "Infrastructure"
+    ],
+    "description": "Decentralized Cloud Object Storage",
+    "twitter": "https://twitter.com/storj",
+    "website": "https://www.storj.io",
+    "img": "storj.svg"
+  },
+  {
+    "title": "SynFutures",
+    "isNew": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "SynFutures is a next-generation derivatives exchange focused on creating an open and trustless derivatives market by enabling trading on any device with proper price feeds. ",
+    "twitter": "https://twitter.com/SynFuturesDefi",
+    "website": "https://www.synfutures.com/",
+    "img": "synfutures.svg"
+  },
+  {
+    "title": "Gelato",
+    "isNew": false,
+    "isLive": false,
+    "type": [
+      "Infrastructure"
+    ],
+    "description": "Web3's Automation Protocol",
+    "twitter": "https://twitter.com/gelatonetwork",
+    "website": "https://gelato.network/",
+    "img": "gelato.png"
+  },
+  {
+    "title": "Go+ Security",
+    "isNew": false,
+    "isLive": false,
+    "type": [
+      "Infrastructure"
+    ],
+    "description": "Go+ provides a totally new way of security service for Web3. Go+ security engine covers multi-chain with multidimensional risk detection, for both crypto project teams and ordinary investors.",
+    "twitter": "https://twitter.com/GoplusSecurity",
+    "website": "https://gopluslabs.io/",
+    "img": "go_plus.svg"
+  },
+  {
+    "title": "Go Pocket",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "Wallet"
+    ],
+    "description": "Go Pocket focuses on providing real-time and dynamic security services, blocking malicious attacks and effectively protecting users' assets by virtue of proactive and comprehensive risk management strategies.",
+    "twitter": "https://twitter.com/gopocketwallet",
+    "website": "https://gopocket.security/",
+    "img": "go_pocket.png"
+  },
+  {
+    "title": "Raise Finance",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "DeFi",
+      "Payments"
+    ],
+    "description": "Raise Finance is a gas free, MEV-protected DEX aggregator on Ethereum mainnet and platform for decentralized fundraising, payments and investments, built on layer 2 solution zkSync.",
+    "twitter": "https://twitter.com/raise_fi",
+    "website": "https://www.raisefinance.io",
+    "img": "raise.svg"
+  },
+  {
+    "title": "FoxWallet",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "Wallet"
+    ],
+    "description": "FoxWallet is a safe and easy-to-use decentralized Web3 wallet, dedicated to creating an entrance and connection to the Web3 world.",
+    "twitter": "https://twitter.com/FoxWallet",
+    "website": "https://foxwallet.com/en",
+    "img": "fox_wallet.png"
+  },
+  {
+    "title": "Tevaera",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "NFT"
+    ],
+    "description": "Tevaera is a decentralized and gamified metaverse on zkSync where players can build, monetize and govern digital islands while trading utility NFTs and playing an assortment of fun and rewarding arcade games.",
+    "twitter": "https://twitter.com/tevaera ",
+    "website": "https://tevaera.com",
+    "img": "tevaera.svg"
+  },
+  {
+    "title": "Icewater",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "Icewater is developing a Stablecoin (H2O) that uses internal market forces defining stability. The result is a currency that avoids the extreme volatility of a fixed supply without being tied to any fiat currency.",
+    "twitter": "https://twitter.com/icewatermoney",
+    "website": "https://icewater.money",
+    "img": "icewater.svg"
+  },
+  {
+    "title": "morgosh",
+    "isLive": false,
+    "isHidden": true,
+    "isNew": false,
+    "type": [
+      "DAO",
+      "NFT",
+      "Marketplace"
+    ],
+    "description": "Primary is a marketplace for NFTS on ZkSync, a rarity tool for collections, starting with zkEagles a NFT collection. Eagle hodlers will have lots of advantages, including free mints on our launching platform.",
+    "twitter": "@NSerec",
+    "website": "https://zkeagles.com/",
+    "img": "zkeagles.png"
+  },
+  {
+    "title": "WardenSwap",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "WardenSwap is a digital asset exchange platform using Blockchain technology available on multi-chain. We are a real-time Best Price using AI Power to find the very best price from all markets in one place",
+    "twitter": "https://twitter.com/WardenSwap",
+    "website": "https://www.wardenswap.com/",
+    "img": "warden.svg"
+  },
+  {
+    "title": "SyncSwap",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "DAO",
+      "DeFi",
+      "Gateways/CEX"
+    ],
+    "description": "SyncSwap is a powerful, cheap and seamless decentralized AMM exchange on zkSync.",
+    "twitter": "https://twitter.com/syncswap",
+    "website": "https://syncswap.xyz",
+    "img": "syncswap.svg"
+  },
+  {
+    "title": "XID Network",
+    "isLive": false,
+    "isNew": false,
+    "type": [
+      "DAO",
+      "Governance",
+      "Digital ID"
+    ],
+    "description": "An open platform for decentralized identity- Make the most of on-chain data value.",
+    "twitter": "https://twitter.com/XidNetwork",
+    "website": "https://www.xidnetwork.xyz/",
+    "img": "xid.svg"
+  },
+  {
+    "title": "Babylon.finance",
+    "isLive": false,
+    "type": [
+      "DAO",
+      "DeFi",
+      "Social"
+    ],
+    "description": "Babylon is a community-led asset management protocol that enables users to create investment clubs and invest in DeFi together. It is non-custodial, transparent, permission-less, and governed by the community.",
+    "twitter": "https://twitter.com/BabylonFinance",
+    "website": "https://www.babylon.finance/",
+    "img": "babylon.svg"
+  },
+  {
+    "title": "tofuNFT",
+    "isLive": false,
+    "type": [
+      "NFT"
+    ],
+    "description": "tofuNFT.com is an NFT marketplace focused on GameFi and collectibles focusing on Layer2 technology. ",
+    "twitter": "https://twitter.com/tofuNFT",
+    "website": "https://tofunft.com/",
+    "img": "tofunft.svg"
+  },
+  {
+    "title": "Phezzan Protocol",
+    "isLive": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "Phezzan Protocol is the first interest earning perpetual DEX on zkSync 2.0. Earn 19.45% APY while you trade.",
+    "website": "http://phezzan.xyz/",
+    "twitter": "https://twitter.com/PhezzanProtocol",
+    "img": "phezzan.png"
+  },
+  {
+    "title": "BlockWallet",
+    "type": [
+      "Wallet",
+      "Privacy"
+    ],
+    "description": "BlockWallet is the most private non-custodial Web3 wallet. Users can enjoy MEV and IP protection, as well as zk-SNARKs smart contracts which allow for anonymous deposits and withdrawals. ",
+    "twitter": "https://twitter.com/GetBlockWallet",
+    "website": "https://blockwallet.io/",
+    "img": "blockwallet.svg"
+  },
+  {
+    "title": "Tally",
+    "isLive": false,
+    "type": [
+      "NFT",
+      "Payments",
+      "Wallet"
+    ],
+    "description": "Tally is the first Web3 wallet that’s community owned & governed by its users.\nIt includes all the features you need for DeFi and Web3. And it’s designed to enrich the community, not corporate shareholders.",
+    "twitter": "https://twitter.com/tallycash",
+    "website": "https://tally.cash/",
+    "img": "tallycash.svg"
+  },
+  {
+    "title": "Dank protocol",
+    "isLive": false,
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "description": "Dank is composed of a fix rate market and a float rate market, controlled and operated by the DAO, which allows all valuable crypto assets to obtain diversified financial services.",
+    "twitter": "https://twitter.com/dank_protocol",
+    "website": "https://dank-protocol.com/",
+    "img": "dank.png"
+  },
+  {
+    "title": "Krebit",
+    "isLive": false,
+    "type": [
+      "Digital ID"
+    ],
+    "description": "Krebit.id is an open identity verification protocol, DAO and marketplace for Web3 Verifiable Credentials made by Issuers about off-chain Claims stored in Ceramic, and registered on-chain in the KRB Ethereum token.",
+    "twitter": "https://twitter.com/KrebitDAO",
+    "website": "https://krebit.id",
+    "img": "krebit.svg"
+  },
+  {
+    "title": "ZKEX",
+    "isLive": false,
+    "type": [
+      "Gateways/CEX"
+    ],
+    "description": "A seamless, permissionless, and anti-censorship multi-chain DEX",
+    "twitter": "https://twitter.com/ZKEX_Official",
+    "website": "https://zkex.com",
+    "img": "zkex.png"
+  },
+  {
+    "title": "Manifest",
+    "isLive": false,
+    "type": [
+      "DAO",
+      "DeFi",
+      "NFT"
+    ],
+    "description": "Manifest brings streetwear to the metaverse, and crypto to the real world. Manifest is a crypto native streetwear brand that leverages cutting edge DeFi economics, NFTs, and community led gamified DAO governance.",
+    "twitter": "https://twitter.com/manifest",
+    "website": "https://manifest.gg",
+    "img": "manifest.svg"
+  },
+  {
+    "title": "CVI",
+    "isLive": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "\nthe Crypto Volatility Index (CVI) is a VIX for the crypto market.\nwe have created a decentralized platform that allows traders to actually trade the index according to their belief in the market.",
+    "twitter": "https://twitter.com/official_CVI",
+    "website": "https://cvi.finance/",
+    "img": "cvi.svg"
+  },
+  {
+    "title": "Hedgey",
+    "isLive": false,
+    "type": [
+      "DeFi",
+      "NFT"
+    ],
+    "description": "Defi Derivative primitives, the intersection of DeFi and NFTs, utilizing defi use cases with NFT tech stack to bring web3 native tooling from traditional finance inspirations. ",
+    "twitter": "https://twitter.com/hedgeyfinance",
+    "website": "https://hedgey.finance",
+    "img": "hedgey.svg"
+  },
+  {
+    "title": "Arweave",
+    "isLive": false,
+    "type": [
+      "Infrastructure"
+    ],
+    "description": "Arweave is a new type of storage that backs data with sustainable and perpetual endowments, allowing users and developers to truly store data forever. It is a collectively owned hard drive that never forgets.",
+    "twitter": "https://twitter.com/ArweaveTeam",
+    "website": "https://www.arweave.org/",
+    "img": "arweave.png"
+  },
+  {
+    "title": "Ferrum Network",
+    "isLive": false,
+    "type": [
+      "Bridges",
+      "DeFi",
+      "Governance",
+      "Infrastructure"
+    ],
+    "description": "A DeFi ecosystem that interoperates across chains & removes barriers to mass adoption.  Ferrum empowers startups & established organizations, enabling them to get their core products to market faster.",
+    "twitter": "https://twitter.com/FerrumNetwork",
+    "website": "https://ferrum.network",
+    "img": "ferrum.png"
+  },
+  {
+    "title": "clr.fund",
+    "isLive": false,
+    "type": [
+      "Governance",
+      "Privacy",
+      "Public Goods"
+    ],
+    "description": "Permissionless and collusion resistant quadratic funding for the Ethereum ecosystem, built on ZKPs courtesy of MACI.",
+    "twitter": "https://twitter.com/clrfund",
+    "website": "https://clr.fund",
+    "img": "clr.fund.png"
+  },
+  {
+    "title": "Poster",
+    "isLive": false,
+    "type": [
+      "Social"
+    ],
+    "description": "A ridiculously simple general purpose social media smart contract.",
+    "twitter": "https://twitter.com/onPstr",
+    "website": "https://pstr.app/",
+    "img": "pstr.svg"
+  },
+  {
+    "title": "Stakefish",
+    "isLive": false,
+    "type": [
+      "Infrastructure"
+    ],
+    "description": "We are the leading staking service provider for blockchain projects. Supporting Ethereum, Polkadot, Cosmos, Tezos, Cardano, Solana, Polygon, Kusama, The graph, Near etc",
+    "twitter": "https://twitter.com/stakefish",
+    "website": "https://stake.fish",
+    "img": "stakefish.png"
+  },
+  {
+    "title": "Via.Exchange",
+    "isLive": false,
+    "type": [
+      "Bridges"
+    ],
+    "description": "Cross-chain liquidity aggregator with fastest and cheapest bridge to zkSync",
+    "twitter": "https://twitter.com/via_protocol",
+    "website": "https://via.exchange",
+    "img": "via.svg"
+  },
+  {
+    "title": "Angle Protocol",
+    "isLive": false,
+    "type": [
+      "DAO",
+      "DeFi",
+      "Payments"
+    ],
+    "description": "Angle is an over-collateralized and capital-efficient decentralized stablecoin protocol. It has launched agEUR, a liquid Euro stablecoin.",
+    "twitter": "https://twitter.com/AngleProtocol",
+    "website": "https://angle.money",
+    "img": "angle.svg"
+  },
+  {
+    "title": "WalletConnect",
+    "isLive": false,
+    "type": [
+      "Wallet"
+    ],
+    "description": "Open protocol connecting wallets to dapps",
+    "twitter": "https://twitter.com/walletconnect",
+    "website": "https://walletconnect.com",
+    "img": "walletconnect.svg"
+  },
+  {
+    "title": "Gro Protocol",
+    "isLive": false,
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "description": "DeFi protocol that makes it easy to earn stablecoin yield! Get PWRD for protection, Vault for leverage, or Labs for automation. Visit https://app.gro.xyz. Available on zkSync with Argent wallet.",
+    "twitter": "https://www.twitter.com/groprotocol",
+    "website": "https://www.gro.xyz",
+    "img": "gropro.svg"
+  },
+  {
+    "title": "Increment",
+    "isLive": false,
+    "type": [
+      "DeFi"
+    ],
+    "description": "Increment is a decentralized algorithmic exchange rate protocol built on zkSync 2.0, empowering open finance for non-USD participants in DeFi.",
+    "twitter": "https://twitter.com/incrementhq",
+    "website": "https://increment.finance/",
+    "img": "increment.png"
+  },
+  {
+    "title": "Simplex",
+    "isLive": false,
+    "type": [
+      "Payments",
+      "Gateways/CEX"
+    ],
+    "description": "Simplex, a Nuvei company, is the industry leader, providing global on/off-ramps to the entire crypto ecosystem. Working with a vast network of partners, Simplex makes crypto safe and accessible to all.",
+    "twitter": "https://twitter.com/SimplexCC",
+    "website": "https://www.simplex.com/",
+    "img": "simplex.svg"
+  },
+  {
+    "title": "Automata Network",
+    "isLive": false,
+    "type": [
+      "Bridges",
+      "Privacy"
+    ],
+    "description": "Automata Network is a decentralised service protocol that provides middleware services for dApps on Ethereum and Polkadot to achieve traceless privacy, high assurance and frictionless computation.",
+    "twitter": "https://twitter.com/AutomataNetwork",
+    "website": "https://ata.network",
+    "img": "ata.svg"
+  },
+  {
+    "title": "Ramp Network",
+    "description": "Ramp is a non-custodial, full-stack payment infrastructure. Allow customers to securely purchase crypto using fiat payment methods without ever leaving your application. We're registered with the FCA and FinCEN.",
+    "type": [
+      "Gateways/CEX"
+    ],
+    "isLive": true,
+    "img": "ramp.svg",
+    "website": "https://ramp.network",
+    "github": "https://github.com/RampNetwork/",
+    "twitter": "https://twitter.com/RampNetwork",
+    "link": "https://wallet.zksync.io"
+  },
+  {
+    "title": "Banxa",
+    "description": "Banxa, founded in 2014, is a fully-compliant and regulated gateway for your cryptocurrency purchases with a world-leading range of payment methods from traditional Credit/Debit card to local Bank Transfers.",
+    "type": [
+      "Gateways/CEX"
+    ],
+    "isLive": true,
+    "img": "banxa-logo.svg",
+    "website": "https://banxa.com/",
+    "twitter": "https://twitter.com/BanxaOfficial"
+  },
+  {
+    "title": "Connext",
+    "description": "Cross chain liquidity network and interoperability protocol. Connext makes blockchains and rollups composable with fast, trustless transfers and contract calls.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": false,
+    "img": "ZSU1xz91_400x400.png",
+    "website": "https://connext.network/",
+    "twitter": "https://twitter.com/ConnextNetwork"
+  },
+  {
+    "title": "cBridge (Celer)",
+    "description": "Celer's cBridge is a multi-chain interoperability platform that bridges liquidity across different chains and enable cross-chain smart contract calls in 16+ chains. It has processed $2B+ in cross-chain transactions.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": false,
+    "img": "celer-bridge.png",
+    "website": "https://cbridge.celer.network/",
+    "twitter": "https://twitter.com/CelerNetwork"
+  },
+  {
+    "title": "Numio",
+    "description": "Numio is a mobile application, which gives you more control over your identity and your money. Numio was the first zkRollup powered mobile application.",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": true,
+    "img": "numio.webp",
+    "website": "https://www.numio.one/",
+    "twitter": "https://twitter.com/getnumio"
+  },
+  {
+    "title": "Gnosis Safe",
+    "description": "Gnosis Safe is the safety standard of Web3 and the most trusted platform to manage digital assets for individuals and communities.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "gnosis.svg",
+    "website": "https://gnosis.pm/",
+    "twitter": "https://twitter.com/gnosisSafe"
+  },
+  {
+    "title": "Yearn Finance",
+    "description": "Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation and lending aggregation on the blockchain",
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "yearn.svg",
+    "website": "https://yearn.finance/",
+    "twitter": "https://twitter.com/iearnfinance"
+  },
+  {
+    "title": "Mute.io",
+    "description": "Mute makes cryptocurrency more accessible by providing an L2 based AMM DEX and DeFi suite that utilizes ZK-Rollup scalability.",
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "mute.svg",
+    "website": "https://mute.io/",
+    "twitter": "https://twitter.com/mute_io"
+  },
+  {
+    "title": "Covalent",
+    "description": "Covalent provides the industry-leading Unified API bringing visibility to billions of Web3 data points. Developers use Covalent to build exciting multi-chain applications using data from 26+ blockchains.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "covalent.svg",
+    "website": "https://www.covalenthq.com/",
+    "twitter": "https://twitter.com/Covalent_HQ"
+  },
+  {
+    "title": "imToken",
+    "description": "imToken is a decentralized digital wallet used to manage a wide range of blockchain- and token-based assets. imToken allows its users to manage assets on 20+ mainstream blockchains, and connect with DApps.",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": true,
+    "link": "https://support.token.im/hc/en-us/articles/900005446086-How-to-use-zkSync-wallet-with-imToken-",
+    "img": "imtoken.svg",
+    "website": "https://token.im/",
+    "twitter": "https://twitter.com/imTokenOfficial"
+  },
+  {
+    "title": "ZigZag",
+    "description": "ZigZag is an orderbook DEX powered by ZK Rollups. We bring the CEX-like experience to our DEX with bottomless liquidity and minimal slippage and fees. We also offer bridges and an upcoming NFT marketplace.",
+    "type": [
+      "DeFi",
+      "Bridges",
+      "NFT"
+    ],
+    "isLive": true,
+    "img": "zigzag.webp",
+    "website": "https://trade.zigzag.exchange/",
+    "twitter": "https://twitter.com/ZigZagExchange"
+  },
+  {
+    "title": "Mystiko Network",
+    "description": "Mystiko.Network is the base layer of web3 that provides both connectivity and confidentiality to all blockchain data, transactions and applications.",
+    "type": [
+      "Privacy"
+    ],
+    "isLive": false,
+    "img": "mystico.png",
+    "website": "https://mystiko.network/",
+    "twitter": "https://twitter.com/MystikoNetwork"
+  },
+  {
+    "title": "Frax",
+    "description": "Frax is the world’s first fractional-algorithmic stablecoin. Frax is open-source, permissionless, and entirely on-chain – currently implemented on Ethereum and other chains.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "frax.svg",
+    "website": "https://frax.finance",
+    "twitter": "https://twitter.com/fraxfinance"
+  },
+  {
+    "title": "Utorg",
+    "description": "Utorg is a fintech company that offers а modern on/off-ramp and web3 consumer infrastructure to deliver а top-notch user experience.",
+    "type": [
+      "Gateways/CEX"
+    ],
+    "isLive": false,
+    "img": "utorg.png",
+    "website": "https://utorg.pro",
+    "twitter": "https://twitter.com/UTORG_pro"
+  },
+  {
+    "title": "MRHB DeFi Network",
+    "description": "An ethical & impact-focused DeFi ecosystem of crypto assets with faith-based financial principles.",
+    "type": [
+      "DeFi",
+      "DAO",
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "marhaba.png",
+    "website": "https://mrhb.network/",
+    "twitter": "https://twitter.com/MarhabaDeFi"
+  },
+  {
+    "title": "Forward Protocol",
+    "description": "Forward Protocol is the WordPress for Web 3.0. Simple to use. No code environment. No technical knowledge is needed. It provides blockchain toolkits that connect value-driven economies.",
+    "type": [
+      "DAO",
+      "DeFi",
+      "Infrastructure",
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "forward.png",
+    "website": "https://forwardprotocol.io",
+    "twitter": "https://twitter.com/ForwardProtocol"
+  },
+  {
+    "title": "Orbiter Finance",
+    "description": "Orbiter Finance is a decentralized cross-rollup Layer 2 bridge with a contract only on the destination side.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": true,
+    "img": "orbiter.png",
+    "website": "https://app.orbiter.finance",
+    "twitter": "https://twitter.com/Orbiter_Finance"
+  },
+  {
+    "title": "Trustless",
+    "description": "Trustless is building Trustless Finance on zkSync: fast, cheap, censorship resistant defi primitives.",
+    "type": [
+      "DAO",
+      "DeFi",
+      "Payments"
+    ],
+    "isLive": false,
+    "img": "trustless.png",
+    "website": "https://www.trustless.fi/",
+    "twitter": "https://twitter.com/trustlessfi"
+  },
+  {
+    "title": "Composable Finance",
+    "description": "Composable Finance’s core are a range of cutting-edge solutions allowing builders to seamlessly build and deploy decentralised applications across one or several layer 1 or layer 2 infrastructures.",
+    "type": [
+      "Bridges",
+      "DeFi",
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "composable.png",
+    "website": "https://www.composable.finance/",
+    "twitter": "https://twitter.com/ComposableFin"
+  },
+  {
+    "title": "WOO Network",
+    "description": "WOO Network is a deep liquidity network connecting traders, exchanges, and DeFi with democratized access to the best-in-class liquidity, trading execution, and yield generation strategies at lower to zero cost.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "woo.png",
+    "website": "https://woo.org/",
+    "twitter": "https://twitter.com/WOOnetwork"
+  },
+  {
+    "title": "Geo Web",
+    "description": "The Geo Web is a set of protocols for anchoring digital content to physical locations. It uses partial common ownership property rights to administer a global digital land market & to fund public goods.",
+    "type": [
+      "NFT",
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "geoweb.png",
+    "website": "https://www.geoweb.network/",
+    "twitter": "https://twitter.com/thegeoweb"
+  },
+  {
+    "title": "Taker Protocol",
+    "description": "Taker is the fundamental financial infrastructure for NFT ecosystem, which provides innovative ways to support the renting and lending of NFT assets.",
+    "type": [
+      "DAO",
+      "DeFi",
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "taker.jpg",
+    "website": "https://taker.org",
+    "twitter": "https://twitter.com/TakerProtocol"
+  },
+  {
+    "title": "Poly Network",
+    "description": "Poly Network is a cross-chain interoperability protocol for implementing blockchain interoperability and building the Web3.0 infrastructure. Poly Network has also integrated over 17 blockchains.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": false,
+    "img": "poly-network.svg",
+    "website": "https://www.poly.network/",
+    "twitter": "https://twitter.com/PolyNetwork2"
+  },
+  {
+    "title": "OpenStars.org",
+    "description": "Play-to-Earn Space Strategy Game built on the blockchain using NFT Stars, NFT Spaceships and Matter tokens. Our vision is to become a foundational element for outer-space-related applications in the blockchain.",
+    "type": [
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "openstars.png",
+    "website": "https://openstars.org/",
+    "twitter": "https://twitter.com/OpenStars"
+  },
+  {
+    "title": "Figment Capital",
+    "description": "Figment Inc. is a web 3 infrastructure provider supporting proof of stake networks & offering application layer solutions for token holders and developers.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "figment.png",
+    "website": "https://figment.io/",
+    "twitter": "https://twitter.com/Figment_io"
+  },
+  {
+    "title": "MathWallet",
+    "description": "Web3 Multichain Crypto Wallet for 2.5 million users, 100+ blockchains",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": true,
+    "img": "mathwallet.png",
+    "website": "https://mathwallet.org/en-us/",
+    "twitter": "https://twitter.com/MathWallet"
+  },
+  {
+    "title": "Moralis",
+    "description": "Moralis is the ultimate web3 development platform allowing fast and scalable dapp creation.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "moralis.svg",
+    "website": "https://moralis.io/",
+    "twitter": "https://twitter.com/MoralisWeb3"
+  },
+  {
+    "title": "Tenderly",
+    "description": "An Ethereum Developer Platform which lets you build faster and ship better products, from simple use cases such as monitoring or debugging smart contracts to creating full-fledged serverless DeFi solutions.",
+    "type": [
+      "Infrastructure",
+      "Tools"
+    ],
+    "isLive": false,
+    "img": "tenderly.svg",
+    "website": "https://tenderly.co/",
+    "twitter": "https://twitter.com/TenderlyApp"
+  },
+  {
+    "title": "Zerion",
+    "description": "Zerion is an ultimate app for DeFi and NFTs, and the simplest way to track and manage your DeFi portfolio from one place. Discover the world of decentralized finance today.",
+    "type": [
+      "DeFi",
+      "NFT",
+      "Wallet"
+    ],
+    "isLive": false,
+    "img": "zerion.svg",
+    "website": "https://zerion.io/",
+    "twitter": "https://twitter.com/zerion_io"
+  },
+  {
+    "title": "Rubicon",
+    "description": "Rubicon is an order book protocol for Ethereum. Trade on a next-generation decentralized exchange and earn in democratic liquidity pools.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "rubicon.svg",
+    "website": "https://rubicon.finance/",
+    "twitter": "https://twitter.com/rubicondefi"
+  },
+  {
+    "title": "Sprintcheckout.com",
+    "description": "Sprintcheckout is the first Layer 2 Ecommerce payment plugin. Currently, available on the WordPress Plugin Directory and soon coming on Shopify. Accept payments bankless, cheap, and fast.",
+    "type": [
+      "Payments"
+    ],
+    "isLive": true,
+    "img": "sprintcheckout.svg",
+    "website": "https://www.sprintcheckout.com/",
+    "twitter": "https://twitter.com/sprintcheckout"
+  },
+  {
+    "title": "1inch Network",
+    "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "1inch.svg",
+    "website": "https://1inch.exchange",
+    "twitter": "https://twitter.com/1inch"
+  },
+  {
+    "title": "Veramo",
+    "description": "Performant and modular APIs for Verifiable Data and SSI",
+    "type": [
+      "Digital ID"
+    ],
+    "isLive": false,
+    "img": "veramo.svg",
+    "website": "https://veramo.io",
+    "twitter": "https://twitter.com/veramojs"
+  },
+  {
+    "title": "The Graph",
+    "description": "The Graph is the data indexing and query layer of web3. The Graph enables anyone to organize blockchain data by building and publishing open source APIs, called subgraphs, that dapps can query using GraphQL.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": true,
+    "img": "thegraph.png",
+    "website": "https://www.thegraph.com",
+    "twitter": "https://twitter.com/graphprotocol"
+  },
+  {
+    "title": "Snapshot",
+    "description": "Snapshot is a free and flexible voting framework that allows DAOs to make decisions transparently.",
+    "type": [
+      "Governance"
+    ],
+    "isLive": false,
+    "img": "snapshot.png",
+    "website": "https://snapshot.org/",
+    "twitter": "https://twitter.com/SnapshotLabs"
+  },
+  {
+    "title": "Argent",
+    "description": "Get the best of Ethereum for up to 100X lower fees",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": true,
+    "img": "argent.svg",
+    "website": "https://argent.xyz/",
+    "twitter": "https://twitter.com/argentHQ"
+  },
+  {
+    "title": "88mph",
+    "description": "Lend your crypto assets at a fixed rate. Receive $MPH rewards, 100% of the protocol revenues, and voting rights.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "88mph.svg",
+    "website": "https://88mph.app",
+    "twitter": "https://twitter.com/88mphapp"
+  },
+  {
+    "title": "Aragon",
+    "description": "Easily build your DAO (Decentralized Autonomous Organization) using Aragon's secure and open-source infrastructure and governance plugins.",
+    "type": [
+      "DAO",
+      "Governance",
+      "Social"
+    ],
+    "isLive": false,
+    "img": "aragon.png",
+    "website": "https://aragon.org/",
+    "twitter": "https://twitter.com/AragonProject"
+  },
+  {
+    "title": "D'CENT Wallet",
+    "description": "D`CENT Wallet aims to protect users` digital assets by combining software and hardware security solutions. Users have the choice of using the Biometric Wallet, Card type Wallet, or the Software Wallet.",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": false,
+    "img": "dcent.png",
+    "website": "https://dcentwallet.com/",
+    "twitter": "https://twitter.com/DCENTwallets"
+  },
+  {
+    "title": "Tracer DAO",
+    "description": "An open source derivative protocol that is on a mission to provide meaningful ways for communities and individuals to manage risk. Perpetual Pools, a leveraged token primitive is currently deployed by Tracer DAO.",
+    "type": [
+      "DAO",
+      "DeFi",
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "tracer.png",
+    "website": "https://tracer.finance/",
+    "twitter": "https://twitter.com/TracerDAO"
+  },
+  {
+    "title": "Hashflow",
+    "description": "Hashflow is a DEX connecting institutional market makers directly to traders. This means tight spreads, zero slippage, and a secure trading experience. Liquidity providers also earn yield without impermanent loss.",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "hashflow.png",
+    "website": "https://www.hashflow.com",
+    "twitter": "https://twitter.com/hashflownetwork"
+  },
+  {
+    "title": "Multichain",
+    "description": "Cross-Chain Router Protocol (CRP), an infrastructure for multi-chain ecosystem. Multichain is envisioned to become the ultimate router for Web3.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": false,
+    "img": "multichain.png",
+    "website": "https://multichain.org",
+    "twitter": "https://twitter.com/MultichainOrg"
+  },
+  {
+    "title": "Mint Square",
+    "description": "Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup. Coming soon to ZKSync 2.0.",
+    "type": [
+      "NFT"
+    ],
+    "isLive": false,
+    "img": "mint.png",
+    "website": "https://mintsquare.io",
+    "twitter": "https://twitter.com/MintSquareNFT"
+  },
+  {
+    "title": "Tile Labs",
+    "description": "Economic infrastructure for games. Tile is a platform that lets game devs and studios embed NFTs, Marketplaces and Tokens into their games with a few lines of code. No smart contract experience required.",
+    "type": [
+      "NFT",
+      "Infrastructure"
+    ],
+    "isHidden": true,
+    "isLive": false,
+    "img": "tile.png",
+    "website": "https://tilelabs.xyz/",
+    "twitter": "https://twitter.com/TileLabs"
+  },
+  {
+    "title": "ONTO Wallet",
+    "description": "ONTO is a DID-based gateway for a seamless Web3 experience, allowing you to manage your digital identity, data, and assets all in one place.",
+    "type": [
+      "Wallet"
+    ],
+    "isLive": false,
+    "img": "onto.png",
+    "website": "https://onto.app/",
+    "twitter": "https://twitter.com/ONTOWallet"
+  },
+  {
+    "title": "Alchemix",
+    "description": "Alchemix is a powerful and flexible CDP system that features non-liquidatable self repaying loans for mirrored assets.",
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "alchemix.png",
+    "website": "https://app.alchemix.fi",
+    "twitter": "https://twitter.com/AlchemixFi"
+  },
+  {
+    "title": "Vovo Finance",
+    "description": "Vovo Finance is a structured products' protocol that offers a variety of products catering to users with different risk profiles. ",
+    "type": [
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "vovo.png",
+    "website": "https://vovo.finance/",
+    "twitter": "https://twitter.com/VovoFinance"
+  },
+  {
+    "title": "Nomad",
+    "description": "Nomad is an optimistic interoperability protocol that enables trust-minimized cross-chain communication. Using Nomad, users can bridge assets and send arbitrary messages across chains securely.",
+    "type": [
+      "Bridges",
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "nomad.png",
+    "website": "https://www.nomad.xyz/",
+    "twitter": "https://twitter.com/nomadxyz_"
+  },
+  {
+    "title": "OlympusDAO",
+    "description": "Olympus is building OHM, a community-owned, decentralized and censorship-resistant reserve currency that is deeply liquid, trusted and used widely across Web3.",
+    "type": [
+      "DAO",
+      "DeFi"
+    ],
+    "isLive": false,
+    "img": "ohm.png",
+    "website": "https://www.olympusdao.finance/",
+    "twitter": "https://twitter.com/olympusdao"
+  },
+  {
+    "title": "deBridge",
+    "description": "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows decentralized transfers of any arbitrary data and assets between various blockchains.",
+    "type": [
+      "Bridges"
+    ],
+    "isLive": false,
+    "img": "debridge.png",
+    "website": "https://debridge.finance/",
+    "twitter": "https://twitter.com/deBridgeFinance"
+  },
+  {
+    "title": "Chainlink",
+    "description": "Chainlink is the most widely adopted blockchain oracle network for powering universal smart contracts. With Chainlink, developers can connect any blockchain with high-quality data sources from other blockchains as well as real-world data.",
+    "type": [
+      "Infrastructure"
+    ],
+    "isLive": false,
+    "img": "chainlink.png",
+    "website": "https://chain.link/",
+    "twitter": "https://twitter.com/chainlink"
+  }
+]

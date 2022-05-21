@@ -1,8 +1,9 @@
 import React from 'react';
 import { BlocksProvider } from '../../hooks/useBlocks';
 import { NetworkStatsProvider } from '../../hooks/useNetworkStats';
+import { EcosystemProvider } from '../../hooks/useEcosystems';
 
-const combinedProviders = [[NetworkStatsProvider], [BlocksProvider]];
+const combinedProviders = [[NetworkStatsProvider], [BlocksProvider], [EcosystemProvider]];
 
 const Providers = ({ children }: any) => {
     return combinedProviders.reduceRight(
