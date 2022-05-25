@@ -1,0 +1,59 @@
+.transactions {
+    min-height: calc(100vh - 67px);
+    background: radial-gradient(66.32% 66.32% at 54.13% 113.95%,rgba(108,38,255,.2) 0,rgba(242,89,255,0) 100%),linear-gradient(211.99deg,rgba(65,157,241,.2) -4.17%,rgba(45,143,234,0) 68.7%),radial-gradient(100% 100% at 28.65% 0,#d5bdf5 0,rgba(250,247,254,0) 100%);
+}
+
+.transactions-content {
+    padding: 32px 80px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.transactions .transactions-body {
+    background: #fff;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+    margin-top: 28px;
+    width: 100%;
+}
+
+.transactions .transactions-body .tab-list {
+    padding: 21px 22px 0 24px;
+    margin-bottom: -2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transactions .transactions-body .tab-list__item {
+    margin-right: 32px;
+    padding: 0;
+    border-radius: unset;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    height: 44px;
+    background: unset;
+    color: rgb(99,102,241);
+    border-bottom: 2px solid rgb(99,102,241);
+    cursor: pointer;
+}
+
+.transactions .transactions-body .tab-list-seperator-line {
+    display: block;
+    border: 1px solid #f7f7f8;
+    width: 100%;
+}
+
+.transaction-list .no-transactions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    padding-bottom: 100px;
+}
+
+.transaction-list .no-transactions__description {
+    margin-top: 16px;
+    color: #0a0b0d;
+}

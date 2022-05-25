@@ -40,5 +40,90 @@
     }
 }
 
+[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    --tw-ring-shadow: none !important;
+}
+
+.header-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -.01em;
+}
+
+.header-h6 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-body-extra-small, .font-label-extra-small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.font-body-small {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.font-label-small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.m-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 16%), 0 1px 4px rgb(0 0 0 / 8%);
+    color: #061024;
+    cursor: pointer;
+    outline: none;
+}
+
+.m-button.nature--primary {
+    color: #fff;
+    background: rgb(99,102,241);
+}
+
+.m-button.size--small {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -1px;
+    height: 34px;
+    padding: 7px 12px;
+}
+
+.m-button.size--large {
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -1px;
+    height: 54px;
+    padding: 14px 20px;
+}
+
+.m-button.nature--link {
+    background: transparent;
+    box-shadow: none;
+    color: #061024;
+}
+
+.page-sub-heading {
+    color: #52555d;
+}
 
 @import url("bridge.css");
+@import url("transactions.css");
