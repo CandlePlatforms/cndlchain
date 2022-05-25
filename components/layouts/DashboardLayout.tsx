@@ -18,7 +18,7 @@ export function DashboardLayout({ children, className }: Props) {
             </div>
 
             <main
-                className={`${contentCss} mb-10 w-full flex flex-col bg-zinc-100 text-black scrollbar-thin scrollbar-track-zinc-100 scrollbar-thumb-zinc-300 dark:bg-[#111113] dark:text-white dark:scrollbar-thumb-zinc-700 dark:scrollbar-track-zinc-800`}
+                className={`${contentCss} w-full flex flex-col bg-zinc-100 text-black scrollbar-thin scrollbar-track-zinc-100 scrollbar-thumb-zinc-300 dark:bg-[#111113] dark:text-white dark:scrollbar-thumb-zinc-700 dark:scrollbar-track-zinc-800`}
             >
                 <DashboardHeader label="vohoangphuc.com" dashboardMode={true} />
                 {children}
