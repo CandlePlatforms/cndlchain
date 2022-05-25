@@ -1,0 +1,347 @@
+/**** Bridge Assets Page *****/
+[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    --tw-ring-shadow: none !important;
+}
+
+.header-h6 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-body-small {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.font-label-small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-label-extra-small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.transfer-mode {
+    margin-top: 16px;
+}
+
+.transfer-mode__label{
+    color: #52555d;
+}
+
+.m-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 16%), 0 1px 4px rgb(0 0 0 / 8%);
+    color: #061024;
+    cursor: pointer;
+    outline: none;
+}
+
+.m-button.nature--primary {
+    color: #fff;
+    background: rgb(99,102,241);
+}
+
+.m-button.size--small {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -1px;
+    height: 34px;
+    padding: 7px 12px;
+}
+
+.m-button.size--large {
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -1px;
+    height: 54px;
+    padding: 14px 20px;
+}
+
+.m-button.nature--link {
+    background: transparent;
+    box-shadow: none;
+    color: #061024;
+}
+
+.bridge-page {
+    min-height: calc(100vh - 67px);
+    background: radial-gradient(66.32% 66.32% at 54.13% 113.95%,rgba(108,38,255,.2) 0,rgba(242,89,255,0) 100%),linear-gradient(211.99deg,rgba(65,157,241,.2) -4.17%,rgba(45,143,234,0) 68.7%),radial-gradient(100% 100% at 28.65% 0,#d5bdf5 0,rgba(250,247,254,0) 100%);
+}
+
+.bridge-content {
+    padding: 20px 0;
+    padding-top: 62px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.info-wrapper {
+    border-radius: 20px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px 0 0;
+    width: 100%;
+    color: #0a0b0d;
+    background: hsla(0,0%,100%,.24);
+}
+
+.inner-wrapper {
+    padding: 32px;
+}
+
+.info-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -.01em;
+    color: #0a0b0d;
+}
+
+.info-description {
+    margin-top: 17px;
+    max-width: 304px;
+    opacity: .6;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.info-extra-links {
+    margin-top: 41px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-button {
+    color: rgb(99,102,241);
+    outline: none;
+    margin: 6px 0;
+    border-radius: 38px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.fast-withdraw-button {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-section img {
+    height: 219px;
+    aspect-ratio: auto 326 / 219;
+    width: 326px;
+}
+
+.transfer-button {
+    margin-top: 16px;
+    border-radius: 12px;
+    align-self: flex-end;
+}
+
+.bridge-wrapper {
+    max-width: 540px;
+    padding: 32px;
+    margin: 0 0 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: hsla(0,0%,100%,.24);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.bridge-tabs {
+    display: flex;
+    padding: 4px;
+    background: hsla(0,0%,100%,.4);
+    border-radius: 12px;
+    position: relative;
+}
+
+.bridge-wrapper .bridge-tabs__tab {
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.bridge-wrapper .bridge-tabs:after {
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: calc(50% - 4px);
+    top: 4px;
+    left: 4px;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 2px 2px -2px rgb(0 0 0 / 8%), inset 0 1px 0.5px hsl(0deg 0% 100% / 16%);
+    border-radius: 8px;
+    transition: .3s ease-in;
+}
+
+.bridge-wrapper .bridge-tabs__withdraw-active:after {
+    left: 50%;
+}
+
+.bridge-body {
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.bridge-body .from-section {
+    border: 1px solid #dddfe0;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.bridge-body .from-section .chain-and-balance-details {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bridge-body .from-section .chain-and-balance-details .chain-details {
+    display: flex;
+    align-items: center;
+}
+
+.bridge-body .from-section .chain-and-balance-details .chain-details__chain-name {
+    margin-left: 8px;
+}
+
+.bridge-body .from-section .chain-and-balance-details .balance-details__label {
+    color: #b0b4bb;
+}
+
+.bridge-body .from-section .token-and-amount-details {
+    border-top: 1px solid #dddfe0;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bridge-body .from-section .token-and-amount-details .token-details {
+    padding: 20px 16px;
+    width: 40%;
+    border-right: 1px solid #dddfe0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    width: unset;
+    max-width: 50%;
+}
+
+.bridge-body .from-section .token-and-amount-details .token-details__token-imgc {
+    height: 24px;
+    width: 24px;
+}
+
+.bridge-body .from-section .token-and-amount-details .token-details__token-name {
+    margin-left: 8px;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bridge-body .from-section .token-and-amount-details .token-details__arrow {
+    margin-left: 8px;
+}
+
+.bridge-body .from-section .token-and-amount-details .amount-details {
+    border-left: 1px solid #dddfe0;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.bridge-body .from-section .token-and-amount-details .amount-details__textfield {
+    max-width: none;
+    line-height: 64px;
+    padding: 0 0 0 16px;
+    border: unset;
+    width: 100%;
+    outline: none;
+    border-radius: 12px;
+}
+
+.bridge-body .from-section .token-and-amount-details .amount-details__max-button {
+    margin-right: 10px;
+    color: rgb(99,102,241);
+    font-weight: 600;
+}
+
+.bridge-body .down-arrow-section {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.bridge-body .down-arrow-section img {
+    margin: 0 auto;
+}
+
+.bridge-body .to-chain-and-balance-details {
+    margin-top: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f8;
+    border-radius: 12px;
+}
+
+.bridge-body .to-chain-and-balance-details .chain-details {
+    display: flex;
+    align-items: center;
+}
+
+.bridge-body .to-chain-and-balance-details .chain-details__chain-name {
+    margin-left: 8px;
+}
+
+.bridge-body .to-chain-and-balance-details .balance-details__label {
+    color: #b0b4bb;
+}
