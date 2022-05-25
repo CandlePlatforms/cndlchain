@@ -8,8 +8,8 @@ export default function TransactionsPage() {
     return (
         <div className="bg-white text-black transactions">
             <div className="transactions-content">
-                <div data-v-24198911="" class="page-heading header-h2">Transactions</div>
-                <div data-v-24198911="" class="page-sub-heading font-body-extra-small">Note: Send transaction is not included in transaction history </div>
+                <div className="page-heading header-h2">Transactions</div>
+                <div className="page-sub-heading font-body-extra-small">Note: Send transaction is not included in transaction history </div>
                 <div className="transactions-body">
                   <div className="tab-list">
                     <div className="tab-list__item font-label-medium tab-list__item--active"> All Transactions </div>
