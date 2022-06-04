@@ -7,6 +7,8 @@ import RecentTransactions from '../components/stats/RecentTransactions';
 import { useEffect } from 'react';
 import { supabase } from '../utils/clients/supabase';
 import { useWeb3React } from '@web3-react/core';
+import LogRocket from 'logrocket';
+LogRocket.init('tkw33l/cndl');
 
 HomePage.getLayout = (page: any) => {
     return <DefaultLayout>{page}</DefaultLayout>;
