@@ -27,8 +27,6 @@ export default function HomePage() {
                     <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                         <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                             <div className="lg:py-24">
-                            <script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossorigin="anonymous"></script>
-<script>window.LogRocket && window.LogRocket.init('tkw33l/cndl');</script>
                                 <a
                                     href="https://testdocs.candlelabs.org/docs/develop/network-details/network"
                                     className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
