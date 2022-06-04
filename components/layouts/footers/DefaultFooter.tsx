@@ -197,8 +197,6 @@ export default function DefaultFooter() {
                 </div>
             </div>
             <script src="//code.tidio.co/bga3j5sbenpxlnttpeyg1zk2yew5k0ep.js" async></script>
-            <script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossOrigin="anonymous"></script>
-<script>window.LogRocket && window.LogRocket.init('tkw33l/cndl');</script>
         </footer>
     );
 }
