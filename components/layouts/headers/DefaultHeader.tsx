@@ -19,7 +19,7 @@ export default function DefaultHeader() {
 
     return (
         <Popover as="header" className="relative">
-            <div className="bg-blue-600 pt-4">
+            <div className="bg-blue-800 pt-4">
                 <nav
                     className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
                     aria-label="Global"
@@ -56,7 +56,7 @@ export default function DefaultHeader() {
                                 <a
                                     key={item.name}
                                     href={item.href}
-                                    className="text-base font-medium text-white/70 hover:text-zinc-100 transition duration-300"
+                                    className="text-base font-medium text-white/90 hover:text-zinc-100 transition duration-300"
                                 >
                                     {item.name}
                                 </a>
