@@ -1,12 +1,13 @@
 interface Props {
     transaction: any;
+    index: number;
 }
 
-export default function TransactionOverview({ transaction }: Props) {
+export default function TransactionOverview({ transaction, index }: Props) {
     const getStatusColor = (status: string) => {
         switch (status) {
             case 'success':
-                return 'bg-green-500/20 text-green-300';
+                return 'bg-sky-400 text-white';
 
             case 'processing':
                 return 'bg-yellow-500/20 text-yellow-300';
@@ -43,71 +44,73 @@ export default function TransactionOverview({ transaction }: Props) {
     return (
         <li
             key={transaction?.id}
-            className="col-span-1 bg-zinc-900/70 rounded-lg shadow divide-y divide-gray-700/50"
+            className={`col-span-1 rounded shadow divide-y pb-2 divide-gray-700/50 bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] ${
+                index % 2 == 1 ? 'mt-14' : 'mb-14'
+            }`}
         >
             <div className="w-full flex items-center justify-between p-6 space-x-6">
-                <div className="flex-1 grid grid-cols-1 md:grid-cols-2 truncate">
-                    <div>
-                        <div className="flex items-center space-x-3">
-                            <h3 className="text-gray-100 text-sm font-semibold truncate">
+                <div className="flex-1 truncate">
+                    <div className="flex justify-between border border-stone-300 border-0 border-b">
+                        <div className="items-center">
+                            <h3 className="text-white text-xl font-bold truncate">
                                 {getTransactionName(transaction)}
                             </h3>
+
+                            <div className="text-white text-lg truncate">
+                                {`Recorded at ${new Date(
+                                    transaction?.blockData?.timestamp * 1000,
+                                ).toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'short',
+                                    day: 'numeric',
+
+                                    hour: 'numeric',
+                                    minute: 'numeric',
+                                    second: 'numeric',
+                                })}`}
+                            </div>
+                        </div>
+                        <div className="py-5">
                             <span
-                                className={`capitalize flex-shrink-0 inline-transaction px-2 py-0.5 text-xs font-medium rounded-full ${getStatusColor(
+                                className={`capitalize  px-4 py-2 text-md font-medium rounded-full ${getStatusColor(
                                     'success',
                                 )}`}
                             >
                                 success
                             </span>
                         </div>
-
-                        <div className="mt-2 text-orange-200 text-xs truncate">
-                            {`Recorded at ${new Date(
-                                transaction?.blockData?.timestamp * 1000,
-                            ).toLocaleDateString('en-US', {
-                                year: 'numeric',
-                                month: 'short',
-                                day: 'numeric',
-
-                                hour: 'numeric',
-                                minute: 'numeric',
-                                second: 'numeric',
-                            })}`}
-                        </div>
                     </div>
 
-                    <div className="text-right">
-                        <p className="mt-1 text-indigo-200 text-sm truncate">
-                            <span className="font-medium text-gray-400">
-                                From{' '}
-                            </span>
+                    <div className="border border-stone-300 border-0 border-b py-2">
+                        <p className="mt-1 text-white text-sm truncate">
+                            <span className="font-medium block">From </span>
                             {transaction?.from}
                         </p>
+                    </div>
 
-                        <p className="mt-1 text-indigo-200 text-sm truncate">
-                            <span className="font-medium text-gray-400">
-                                To{' '}
-                            </span>
+                    <div className="border border-stone-300 border-0 border-b py-2">
+                        <p className="mt-1 text-white text-sm truncate">
+                            <span className="font-medium block">To </span>
                             {transaction?.to ??
                                 '0x0000000000000000000000000000000000000000'}
                         </p>
                     </div>
 
-                    <div className="mt-4 col-span-full grid grid-cols-1 md:grid-cols-3 gap-2 text-center">
+                    <div className="mt-4 col-span-full grid grid-cols-3 gap-4 text-center">
                         <p className="px-4 py-2 rounded-lg bg-blue-300/10 text-blue-200 text-sm truncate">
-                            <span className="font-medium">
+                            <span className="font-medium block">
                                 {getBlockNumber(transaction)}
-                            </span>{' '}
+                            </span>
                             ({transaction.blockNumber})
                         </p>
 
                         <p className="px-4 py-2 rounded-lg bg-green-300/10 text-green-200 text-sm truncate">
-                            <span className="font-medium">Gas Used: </span>
+                            <span className="font-medium block">Gas Used</span>
                             {parseInt(transaction?.gas, 16)}
                         </p>
 
                         <p className="px-4 py-2 rounded-lg bg-red-300/10 text-red-200 text-sm truncate">
-                            <span className="font-medium">Gas Price: </span>
+                            <span className="font-medium block">Gas Price</span>
                             {`${
                                 parseInt(transaction?.gasPrice, 16) / 1000000000
                             } Gwei`}

@@ -50,7 +50,7 @@ export default function HomePage() {
                             className="absolute bottom-0 right-0"
                         />
                     </div>
-                    <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center z-10">
+                    <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center z-10 relative">
                         <div className="lg:pt-24 pb-12 flex flex-col item-center">
                             <h1 className="mt-4 text-4xl tracking-tight font-bold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-center mb-10">
                                 <span>
@@ -182,7 +182,7 @@ export default function HomePage() {
         return (
             <div className="lg:overflow-visible relative">
                 <img src="/images/home/wave_border1.png" className="w-full" />
-                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-20">
+                <div className="mx-auto max-w-7xl lg:px-8 px-8 relative overflow-visible mb-20">
                     <div className="mx-8 space-y-8 md:space-y-16 lg:mx-0 mb-20">
                         <h1 className="mt-4 text-4xl tracking-tight font-bold text-black sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-center mb-10">
                             <p>
@@ -224,7 +224,7 @@ export default function HomePage() {
                         className="absolute -bottom-40 -right-10 w-1/4"
                     />
                 </div>
-                <div className="mx-auto max-w-7xl lg:px-8 overflow-visible mb-20">
+                <div className="mx-auto max-w-7xl px-8 overflow-visible mb-20">
                     <div className="flex">
                         <img
                             src="/images/home/ethereum.svg"
@@ -302,8 +302,8 @@ export default function HomePage() {
         ];
         return (
             <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-visible pb-32 relative bg-blue-800">
-                <div className="flex mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-20">
-                    <div className="mx-8 lg:mx-0 mb-20 basis-2/3">
+                <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto max-w-7xl px-8 relative overflow-visible mb-20">
+                    <div className="mx-8 lg:mx-0 mb-2 basis-2/3">
                         <h1 className="mt-4 text-2xl tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl mb-2">
                             <p>
                                 Let's get started with
@@ -327,7 +327,7 @@ export default function HomePage() {
                         src="/images/home/shape6.svg"
                         className="w-64 absolute right-5 top-16 rotate-[40deg]"
                     />
-                    <div className="basis-1/3 text-center mt-7 relative">
+                    <div className="basis-1/3 text-center mt-7 relative py-14">
                         <Link href="/login" passHref>
                             <a className="inline-flex items-center px-12 py-3 border border-transparent text-base font-bold rounded-md text-white bg-sky-400 hover:bg-sky-500 transition duration-300 mb-2">
                                 Access Wallet Here
@@ -338,7 +338,7 @@ export default function HomePage() {
                         </p>
                     </div>
                 </div>
-                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible pb-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-8 relative">
+                <div className="mx-auto max-w-7xl px-8 relative overflow-visible pb-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-8 relative">
                     {list.map((item) => (
                         <div className="flex bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] rounded p-8">
                             <img
@@ -371,8 +371,8 @@ export default function HomePage() {
             <div className="lg:overflow-visible">
                 <img src="/images/home/wave_border3.png" className="w-full" />
                 <RecentBlocks />
-                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-14 item-center">
-                    <div className="flex lg:flex-row md:flex-col">
+                <div className="mx-auto max-w-7xl px-8 relative overflow-visible mb-14">
+                    <div className="flex lg:flex-row flex-col lg:text-left text-center md:items-center">
                         <p className="lg:basis-2/3 md:basis-1/1 text-stone-800 text-6xl font-extrabold w-full mb-10">
                             The Chosen Solution
                             <br />
@@ -414,7 +414,7 @@ export default function HomePage() {
 
     const renderParagraph5 = () => {
         return (
-            <div className="pt-15 sm:pt-16 lg:pt-18 lg:pb-14 lg:overflow-hidden bg-blue-800">
+            <div className="pt-15 sm:pt-16 lg:pt-18 lg:overflow-show bg-blue-800">
                 <div className="mx-auto max-w-7xl lg:px-8 relative">
                     <img
                         src="/images/home/shape6.svg"
@@ -431,7 +431,45 @@ export default function HomePage() {
                         className="w-44 absolute right-56 top-10"
                     />
                     <RecentTransactions />
+                    <img
+                        src="/images/home/blue_rainbow.svg"
+                        className="w-72 absolute top-1/3 -right-36 z-10"
+                    />
+                    <img
+                        src="/images/home/wave_yellow3.svg"
+                        className="w-44 absolute top-2/3 -left-10"
+                    />
+                    <img
+                        src="/images/home/shape6.svg"
+                        className="absolute -bottom-12 -right-16 w-80 rotate-[100deg] transform-x"
+                    />
                 </div>
+            </div>
+        );
+    };
+
+    const renderParagraph6 = () => {
+        return (
+            <div className="lg:overflow-show">
+                <img src="/images/home/wave_border3.png" className="w-full" />
+                <div className="mx-auto max-w-7xl lg:px-8 relative mt-10">
+                    <div className="flex flex-col place-items-center">
+                        <img
+                            src="/images/home/blue_rainbow2.png"
+                            className="w-96 mb-5"
+                        />
+                        <p className="text-stone-800 text-5xl font-extrabold w-full mb-5 text-center">
+                            Whats next for the{' '}
+                            <span className="text-blue-800">Candle</span>?
+                        </p>
+                        <p className="text-stone-900 text-3xl font-semibold w-full mb-5 text-center">
+                            We're currently working on a number of <br />
+                            features that will be added to the platform in
+                            <br /> the coming months.
+                        </p>
+                    </div>
+                </div>
+                <img src="/images/home/wave_border2.png" className="w-full" />
             </div>
         );
     };
@@ -443,7 +481,8 @@ export default function HomePage() {
             {renderParagraph3()}
             {renderParagraph4()}
             {renderParagraph5()}
-            <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+            {renderParagraph6()}
+            {/* <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
                 <div className="mx-auto max-w-7xl lg:px-8">
                     <div className="mx-8 space-y-8 md:space-y-16 lg:mx-0">
                         <StatsOverview />
@@ -460,7 +499,7 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 }
