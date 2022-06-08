@@ -67,8 +67,8 @@ export default function DefaultFooter() {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-                <div className="flex mt-8 xl:mt-0 justify-between">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 overflow-hidden">
+                <div className="flex mt-8 xl:mt-0 justify-between flex-col md:flex-row">
                     <div className="mb-10">
                         <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
                             Subscribe to our newsletter
@@ -102,7 +102,7 @@ export default function DefaultFooter() {
                     </form>
                 </div>
                 <div className="flex mt-8 xl:mt-0 justify-between">
-                    <div className="flex relative">
+                    <div className="flex relative flex-col md:flex-row">
                         <h3 className="text-2xl text-gray-100 tracking-wider">
                             EVM based scaling platform <br />
                             <span className="text-5xl font-bold">

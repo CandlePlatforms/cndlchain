@@ -50,7 +50,7 @@ export default function RecentBlocks() {
     };
 
     return (
-        <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mt-10 mb-24">
+        <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mt-10 mb-24 relative z-10">
             <p className="text-black text-4xl font-bold w-full text-center mb-10">
                 Recent{' '}
                 <span className="text-blue-800 font-extrabold">Blocks</span>
