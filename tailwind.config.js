@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+console.log(colors)
 
 module.exports = {
   mode: "jit",
@@ -10,15 +11,15 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
-      colors: {
-        ...colors,
-        blue: {
-          ...colors.blue,
-          800: '#21429B'
-        },
-        slate: {
-          200: '#ECEFFE'
-        }
+    },
+    colors: {
+      ...colors,
+      'blue': {
+        ...colors.blue,
+        '800': '#21429B'
+      },
+      slate: {
+        200: '#ECEFFE'
       }
     },
     extend: {

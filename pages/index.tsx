@@ -21,7 +21,7 @@ export default function HomePage() {
     const { account } = useWeb3React();
 
     const renderParagraph1 = () => (
-        <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 bg-blue-800 relative mb-60">
+        <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 bg-blue-800 relative">
             <div className="mx-auto max-w-7xl lg:px-8">
                 <div className="lg:grid lg:grid-cols-1 lg:gap-8 relative">
                     <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 absolute w-full h-full z-0">
@@ -107,10 +107,6 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-            <img
-                src="/images/home/wave_border1.png"
-                className="absolute top-1/1 left-0 w-full"
-            />
         </div>
     );
 
@@ -184,8 +180,9 @@ export default function HomePage() {
             },
         ];
         return (
-            <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-visible mb-96 relative">
-                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-32">
+            <div className="lg:overflow-visible relative">
+                <img src="/images/home/wave_border1.png" className="w-full" />
+                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-20">
                     <div className="mx-8 space-y-8 md:space-y-16 lg:mx-0 mb-20">
                         <h1 className="mt-4 text-4xl tracking-tight font-bold text-black sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-center mb-10">
                             <p>
@@ -227,7 +224,7 @@ export default function HomePage() {
                         className="absolute -bottom-40 -right-10 w-1/4"
                     />
                 </div>
-                <div className="mx-auto max-w-7xl lg:px-8 overflow-visible">
+                <div className="mx-auto max-w-7xl lg:px-8 overflow-visible mb-20">
                     <div className="flex">
                         <img
                             src="/images/home/ethereum.svg"
@@ -272,10 +269,169 @@ export default function HomePage() {
                         ))}
                     </div>
                 </div>
-                <img
-                    src="/images/home/wave_border2.png"
-                    className="absolute top-1/1 left-0 w-full"
-                />
+                <img src="/images/home/wave_border2.png" className="w-full" />
+            </div>
+        );
+    };
+
+    const renderParagraph3 = () => {
+        const list = [
+            {
+                title: 'Candle Dashboard',
+                description:
+                    'View your crpto assests and transactions in a simple and intuivative way',
+                image: 'candle_dashboard.svg',
+            },
+            {
+                title: 'Candle Bridge',
+                description:
+                    'Deposit and withdraw funds from your wallet to other networks',
+                image: 'candle_bridge.svg',
+            },
+            {
+                title: 'Candle Wallet',
+                description:
+                    'A wallet that allows you to send and receive crypto assets in a secure way',
+                image: 'candle_wallet.svg',
+            },
+            {
+                title: 'Candle Staking',
+                description: 'Stake your crypto assets to earn rewards',
+                image: 'candle_staking.svg',
+            },
+        ];
+        return (
+            <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-visible pb-32 relative bg-blue-800">
+                <div className="flex mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-20">
+                    <div className="mx-8 lg:mx-0 mb-20 basis-2/3">
+                        <h1 className="mt-4 text-2xl tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl mb-2">
+                            <p>
+                                Let's get started with
+                                <br />
+                                <span className="xl:text-5xl font-bold flex">
+                                    Candle Wallet
+                                    <img
+                                        src="/images/home/wave_yellow2.svg"
+                                        className="w-20 ml-5"
+                                    />
+                                </span>
+                            </p>
+                        </h1>
+                        <p className="mt-4 text-2xl">
+                            The safe, fast, and secure way to send and receive
+                            <br />
+                            crypto assets on Candle Chain Network.
+                        </p>
+                    </div>
+                    <img
+                        src="/images/home/shape6.svg"
+                        className="w-64 absolute right-5 top-16 rotate-[40deg]"
+                    />
+                    <div className="basis-1/3 text-center mt-7 relative">
+                        <Link href="/login" passHref>
+                            <a className="inline-flex items-center px-12 py-3 border border-transparent text-base font-bold rounded-md text-white bg-sky-400 hover:bg-sky-500 transition duration-300 mb-2">
+                                Access Wallet Here
+                            </a>
+                        </Link>
+                        <p className="text-white text-sm text-stone-300">
+                            Connect your preffered wallet here
+                        </p>
+                    </div>
+                </div>
+                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible pb-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-8 relative">
+                    {list.map((item) => (
+                        <div className="flex bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] rounded p-8">
+                            <img
+                                src={`/images/home/${item.image}`}
+                                className="w-16 h-16 mt-2 ml-4"
+                            />
+                            <div className="ml-8 flex-auto">
+                                <p className="text-2xl font-bold mb-2">
+                                    {item.title}
+                                </p>
+                                <p>{item.description}</p>
+                            </div>
+                            <img
+                                src="/images/home/icon_btn_next.svg"
+                                className="w-10 ml-5 mt-14"
+                            />
+                        </div>
+                    ))}
+                    <img
+                        src="/images/home/blue_rainbow.svg"
+                        className="w-72 absolute -bottom-10 -left-14 z-10"
+                    />
+                </div>
+            </div>
+        );
+    };
+
+    const renderParagraph4 = () => {
+        return (
+            <div className="lg:overflow-visible">
+                <img src="/images/home/wave_border3.png" className="w-full" />
+                <RecentBlocks />
+                <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mb-14 item-center">
+                    <div className="flex lg:flex-row md:flex-col">
+                        <p className="lg:basis-2/3 md:basis-1/1 text-stone-800 text-6xl font-extrabold w-full mb-10">
+                            The Chosen Solution
+                            <br />
+                            for{' '}
+                            <span className="text-blue-800">
+                                Scaling Ethereum
+                            </span>
+                        </p>
+                        <img
+                            src="/images/home/tenderly.svg"
+                            className="lg:basis-1/3 md:basis-1/1 lg:w-48 md:w-2/3"
+                        />
+                    </div>
+                    <div className="grid lg:grid-cols-6 md:grid-cols-3 gap-16">
+                        <div>
+                            <img src="/images/home/logo_4everland.svg" />
+                        </div>
+                        <div>
+                            <img src="/images/home/logo_nftscan.svg" />
+                        </div>
+                        <div>
+                            <img src="/images/home/logo_standard.svg" />
+                        </div>
+                        <div>
+                            <img src="/images/home/logo_bitkeep.svg" />
+                        </div>
+                        <div>
+                            <img src="/images/home/logo_juno.svg" />
+                        </div>
+                        <div>
+                            <img src="/images/home/logo_viewmore.svg" />
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/home/wave_border4.png" className="w-full" />
+            </div>
+        );
+    };
+
+    const renderParagraph5 = () => {
+        return (
+            <div className="pt-15 sm:pt-16 lg:pt-18 lg:pb-14 lg:overflow-hidden bg-blue-800">
+                <div className="mx-auto max-w-7xl lg:px-8 relative">
+                    <img
+                        src="/images/home/shape6.svg"
+                        width="130"
+                        height="130"
+                        className="absolute top-1 right-0 rotate-[100deg] transform-x"
+                    />
+                    <img
+                        src="/images/home/shape6.svg"
+                        className="absolute w-56 top-10 left-0 rotate-[100deg] transform-x"
+                    />
+                    <img
+                        src="/images/home/wave_yellow2.svg"
+                        className="w-44 absolute right-56 top-10"
+                    />
+                    <RecentTransactions />
+                </div>
             </div>
         );
     };
@@ -284,12 +440,13 @@ export default function HomePage() {
         <>
             {renderParagraph1()}
             {renderParagraph2()}
+            {renderParagraph3()}
+            {renderParagraph4()}
+            {renderParagraph5()}
             <div className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
                 <div className="mx-auto max-w-7xl lg:px-8">
                     <div className="mx-8 space-y-8 md:space-y-16 lg:mx-0">
                         <StatsOverview />
-                        <RecentBlocks />
-                        <RecentTransactions />
 
                         <div className="p-8 bg-zinc-900/70 text-white rounded-lg">
                             <h2 className="text-xl md:text-3xl font-semibold w-fit text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-purple-300 to-red-400">

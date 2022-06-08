@@ -10,6 +10,18 @@ export default function GasUsageStats({ gasUsedHex, gasLimitHex }: Props) {
     const gasUsedPercent = ((gasUsed / (gasLimit || 1)) * 100).toFixed(3);
 
     return (
+        <p className="flex mt-1 font-medium text-sm truncate place-items-center pt-3">
+            <img src="/images/home/recent_block_gas.svg" className="w-8" />
+            <div className="flex-auto ml-5 text-lg">
+                <span className="block">Gas used ({gasUsedPercent}%)</span>
+                <span className="block whitespace-normal break-all">
+                    ({`${gasUsed} / ${gasLimit}`})
+                </span>
+            </div>
+        </p>
+    );
+
+    return (
         <div>
             <div className="flex justify-between mb-1">
                 <span className="text-base font-medium text-green-200">

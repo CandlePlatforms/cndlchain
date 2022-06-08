@@ -68,7 +68,7 @@ export default function BlockOverview({ number }: Props) {
     const getStatusColor = (status: any) => {
         switch (status) {
             case 'mined':
-                return 'bg-green-500/20 text-green-300';
+                return 'bg-sky-400 text-white';
 
             case 'processing':
                 return 'bg-yellow-500/20 text-yellow-300';
@@ -85,7 +85,7 @@ export default function BlockOverview({ number }: Props) {
         if (!timestamp) return '-';
 
         const now = Date.now();
-        const diff = now - (new Date(timestamp * 1000).getTime());
+        const diff = now - new Date(timestamp * 1000).getTime();
 
         if (diff < 1000) return 'just now';
 
@@ -112,49 +112,71 @@ export default function BlockOverview({ number }: Props) {
     return (
         <li
             key={block?.hash}
-            className="col-span-1 bg-zinc-900/70 rounded-lg shadow divide-gray-700/50"
+            className="col-span-1 bg-white rounded-lg shadow divide-gray-700/50 relative"
         >
+            <div className="absolute w-[3px] h-full left-0 top-2 bg-gradient-to-b from-[#3577BD] to-transparent" />
+            <div className="absolute w-[3px] h-full right-0 top-2 bg-gradient-to-b from-[#3577BD] to-transparent" />
+            <img
+                src="/images/home/recent_block_header.svg"
+                className="absolute w-full left-0 right-0 top-0"
+            />
             <div
-                className={`w-full flex items-center justify-between p-6 space-x-6
+                className={`w-full flex items-center justify-between py-6 px-9 space-x-6
                 ${loading ? 'opacity-50' : 'opacity-100'}`}
             >
-                <div className="flex-1 truncate">
-                    <div className="flex items-center space-x-3">
-                        <h3 className="text-blue-300 text-sm font-semibold truncate">
+                <div className="flex-1 truncate relative">
+                    <div className="flex items-center space-x-3 justify-between mb-14">
+                        <h3 className="text-white text-3xl font-semibold truncate flex flex-col">
                             #{parseInt(block?.number, 16) || number}{' '}
-                            <span className="text-gray-100">
+                            <span className="text-2xl">
                                 ({block?.number ?? `0x${number?.toString(16)}`})
                             </span>
                         </h3>
                         <span
-                            className={`capitalize flex-shrink-0 inline-block px-2 py-0.5 text-xs font-medium rounded-full ${getStatusColor(
+                            className={`capitalize flex-shrink-0 inline-block px-8 py-3 text-md font-bold rounded-full ${getStatusColor(
                                 loading ? 'processing' : 'mined',
                             )}`}
                         >
                             {loading ? 'processing' : 'mined'}
                         </span>
                     </div>
-                    <p className="mt-1 font-medium text-yellow-200 text-sm truncate">
-                        <span className="font-semibold text-orange-200">
-                            Transactions:{' '}
-                        </span>
-                        {block?.transactions.length || 0}
-                    </p>
+                    <div className="text-black">
+                        <p className="flex mt-1 font-medium text-sm truncate place-items-center border-solid border-gray-100 border-b-2 py-3">
+                            <img
+                                src="/images/home/recent_block_tx.svg"
+                                className="w-8"
+                            />
+                            <span className="text-lg flex-auto ml-5">
+                                Transactions: {block?.transactions.length || 0}
+                            </span>
+                        </p>
+                        <p className="flex mt-1 font-medium text-sm truncate place-items-center border-solid border-gray-100 border-b-2 py-3">
+                            <img
+                                src="/images/home/recent_block_time.svg"
+                                className="w-8"
+                            />
+                            <span className="text-lg flex-auto ml-5">
+                                {getRelativeTime(block?.timestamp)}
+                            </span>
+                        </p>
+                        <p className="flex mt-1 font-medium text-sm truncate place-items-center border-solid border-gray-100 border-b-2 py-3">
+                            <img
+                                src="/images/home/recent_block_minted.svg"
+                                className="w-8"
+                            />
+                            <div className="flex-auto ml-5 text-lg">
+                                <span className="block">Mined by</span>
+                                <span className="block whitespace-normal break-all">
+                                    {block?.miner || 'Unknown'}
+                                </span>
+                            </div>
+                        </p>
 
-                    <div className="capitalize mt-4 text-indigo-100 text-xs truncate">
-                        {getRelativeTime(block?.timestamp)}
+                        <GasUsageStats
+                            gasUsedHex={block?.gasUsed}
+                            gasLimitHex={block?.gasLimit}
+                        />
                     </div>
-                    <p className="mt-1 mb-4 text-blue-200 font-semibold text-xs truncate">
-                        <span className="font-medium text-zinc-300">
-                            Mined by{' '}
-                        </span>
-                        {block?.miner || 'Unknown'}
-                    </p>
-
-                    <GasUsageStats
-                        gasUsedHex={block?.gasUsed}
-                        gasLimitHex={block?.gasLimit}
-                    />
                 </div>
             </div>
         </li>

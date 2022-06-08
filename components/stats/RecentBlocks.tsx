@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useNetworkStats } from '../../hooks/useNetworkStats';
 import CircularLoadingIndicator from '../loaders/CircularLoadingIndicator';
@@ -5,7 +6,7 @@ import BlockOverview from './BlockOverview';
 
 export default function RecentBlocks() {
     const { loading, totalBlocks } = useNetworkStats();
-    const blocksToDisplay = 9;
+    const blocksToDisplay = 3;
 
     const [noData, setNoData] = useState(false);
 
@@ -49,14 +50,23 @@ export default function RecentBlocks() {
     };
 
     return (
-        <div>
-            <h3 className="my-4 text-lg leading-6 font-medium text-gray-100">
-                Recent Blocks
-            </h3>
+        <div className="mx-auto max-w-7xl lg:px-8 relative overflow-visible mt-10 mb-24">
+            <p className="text-black text-4xl font-bold w-full text-center mb-10">
+                Recent{' '}
+                <span className="text-blue-800 font-extrabold">Blocks</span>
+            </p>
+            <img
+                src="/images/home/wave_yellow3.svg"
+                className="absolute w-52 right-0 -top-14"
+            />
+            <img
+                src="/images/home/wave_blue.svg"
+                className="absolute w-80 left-0 -bottom-5"
+            />
 
             <ul
                 role="list"
-                className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+                className="grid grid-cols-1 gap-9 sm:grid-cols-2 lg:grid-cols-3 mb-20"
             >
                 {noData ? (
                     <div className="col-span-full">
@@ -80,6 +90,14 @@ export default function RecentBlocks() {
                     generateRecentBlocks()
                 )}
             </ul>
+            <div className="block text-center h-20 mb-10">
+                <Link href="/transactions" passHref>
+                    <a className="text-center py-5 px-32 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
+                        View More
+                    </a>
+                </Link>
+            </div>
+            <div className='bg-gray-300 w-full h-[1px]'/>
         </div>
     );
 }

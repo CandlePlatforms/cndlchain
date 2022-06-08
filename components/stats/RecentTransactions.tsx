@@ -111,10 +111,14 @@ export default function RecentTransactions() {
     }, [getBlockWithNumber, totalTransactions, lastTotalTransactions]);
 
     return (
-        <div>
-            <h3 className="my-4 text-lg leading-6 font-medium text-gray-100">
-                Recent Transactions
-            </h3>
+        <div className="mx-8 space-y-8 md:space-y-16 lg:mx-0 relative">
+            <p className="lg:basis-2/3 md:basis-1/1 text-white text-5xl w-full mb-10 font-bold text-center">
+                Check out our recent
+                <br />
+                <span className="text-6xl font-extrabold">
+                    Transactions
+                </span>
+            </p>
 
             <ul role="list" className="grid grid-cols-1 gap-6">
                 {noData ? (
