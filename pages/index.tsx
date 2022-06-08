@@ -65,7 +65,7 @@ export default function HomePage() {
                                     passHref
                                 >
                                     <a className="block text-center py-5 px-32 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
-                                        Let's Get Started
+                                        {"Let's Get Started"}
                                     </a>
                                 </Link>
                                 <p className="mt-3 text-md text-gray-300 sm:mt-4 text-center mb-6">
@@ -196,7 +196,10 @@ export default function HomePage() {
                     </div>
                     <div className="flex flex-wrap md:grid-cols-1">
                         {list.map((item, index) => (
-                            <div className="lg:w-1/2 md:w-full">
+                            <div
+                                className="lg:w-1/2 md:w-full"
+                                key={item.title}
+                            >
                                 <div className="flex mb-10">
                                     <div className="rounded-full p-7 bg-gradient-to-b from-[#21429B] via-[#478CCA] to-[#4BB7E8] flex-none">
                                         <img
@@ -246,6 +249,7 @@ export default function HomePage() {
                     <div className="grid lg:grid-cols-4 gap-4 md:grid-cols-2 sm:grid-cols-1">
                         {states.map((item) => (
                             <div
+                                key={item.title}
                                 className={`text-center text-white py-10 rounded relative bg-gradient-to-br ${item.from} ${item.to} overflow-hidden`}
                             >
                                 <img
@@ -306,7 +310,7 @@ export default function HomePage() {
                     <div className="mx-8 lg:mx-0 mb-2 basis-2/3">
                         <h1 className="mt-4 text-2xl tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl mb-2">
                             <p>
-                                Let's get started with
+                                {"Let's get started with"}
                                 <br />
                                 <span className="xl:text-5xl font-bold flex">
                                     Candle Wallet
@@ -340,7 +344,10 @@ export default function HomePage() {
                 </div>
                 <div className="mx-auto max-w-7xl px-8 relative overflow-visible pb-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-8 relative">
                     {list.map((item) => (
-                        <div className="flex bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] rounded p-8">
+                        <div
+                            className="flex bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] rounded p-8"
+                            key={item.title}
+                        >
                             <img
                                 src={`/images/home/${item.image}`}
                                 className="w-16 h-16 mt-2 ml-4"
@@ -463,7 +470,8 @@ export default function HomePage() {
                             <span className="text-blue-800">Candle</span>?
                         </p>
                         <p className="text-stone-900 text-3xl font-semibold w-full mb-5 text-center">
-                            We're currently working on a number of <br />
+                            {"We're currently working on a number of "}
+                            <br />
                             features that will be added to the platform in
                             <br /> the coming months.
                         </p>
