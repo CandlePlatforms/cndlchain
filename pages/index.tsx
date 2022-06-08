@@ -64,7 +64,7 @@ export default function HomePage() {
                                     href={account ? '/wallets' : '/login'}
                                     passHref
                                 >
-                                    <a className="block text-center py-5 px-32 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
+                                    <a className="block text-center py-5 md:px-32 px-20 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
                                         {"Let's Get Started"}
                                     </a>
                                 </Link>
@@ -363,15 +363,15 @@ export default function HomePage() {
                         src="/images/home/shape6.svg"
                         width="130"
                         height="130"
-                        className="absolute top-1 right-0 rotate-[100deg] transform-x"
+                        className="absolute top-1 md:right-0 -right-20 rotate-[100deg] transform-x"
                     />
                     <img
                         src="/images/home/shape6.svg"
-                        className="absolute w-56 top-10 left-0 rotate-[100deg] transform-x"
+                        className="absolute w-56 top-10 md:left-0 -left-36 rotate-[100deg] transform-x"
                     />
                     <img
                         src="/images/home/wave_yellow2.svg"
-                        className="w-44 absolute right-56 top-10"
+                        className="w-44 absolute md:right-56 -right-24 top-10"
                     />
                     <RecentTransactions />
                     <img

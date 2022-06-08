@@ -6,24 +6,24 @@ import { supabase } from '../../utils/clients/supabase';
 import CircularLoadingIndicator from '../loaders/CircularLoadingIndicator';
 import TransactionOverview from './TransactionOverview';
 
-// const defaultTxs = {
-//     id: '0xa258df979aa74ba0d521dbe2cd4a0deddff129a5500edce6cc0abe4d5f3d5701',
-//     hash: '0xa258df979aa74ba0d521dbe2cd4a0deddff129a5500edce6cc0abe4d5f3d5701',
-//     from: '0x546D090bbcEC3d96903d41e38C3436c1C601AF9c',
-//     to: '0x6B832F659412d6c3095F6235ef8d7bedc0382606',
-//     blockNumber: '0x6f2d',
-//     gas: 21000,
-//     gasPrice: '0xda3a6d0',
-//     blockData: {
-//         timestamp: '0x62a0aa56',
-//     },
-// };
+const defaultTxs = {
+    id: '0xa258df979aa74ba0d521dbe2cd4a0deddff129a5500edce6cc0abe4d5f3d5701',
+    hash: '0xa258df979aa74ba0d521dbe2cd4a0deddff129a5500edce6cc0abe4d5f3d5701',
+    from: '0x546D090bbcEC3d96903d41e38C3436c1C601AF9c',
+    to: '0x6B832F659412d6c3095F6235ef8d7bedc0382606',
+    blockNumber: '0x6f2d',
+    gas: 21000,
+    gasPrice: '0xda3a6d0',
+    blockData: {
+        timestamp: '0x62a0aa56',
+    },
+};
 
 export default function RecentTransactions() {
     const { getBlockWithNumber } = useBlocks();
     const { loading: statsLoading, totalTransactions } = useNetworkStats();
 
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     const [noData, setNoData] = useState(false);
 
     useEffect(() => {
@@ -34,11 +34,12 @@ export default function RecentTransactions() {
         return () => clearInterval(interval);
     }, [statsLoading]);
 
-    const [lastTotalTransactions, setLastTotalTransactions] = useState(0);
-    const [recentTransactions, setRecentTransactions] = useState<any>([]);
+    const [lastTotalTransactions, setLastTotalTransactions] = useState(6);
+    const [recentTransactions, setRecentTransactions] = useState<any>([defaultTxs, defaultTxs, defaultTxs, defaultTxs, defaultTxs, defaultTxs]);
     const transactionsToDisplay = 10;
 
     useEffect(() => {
+        return
         const generateRecentTransactions = async () => {
             if (
                 !totalTransactions ||

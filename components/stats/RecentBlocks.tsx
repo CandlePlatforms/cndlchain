@@ -57,11 +57,11 @@ export default function RecentBlocks() {
             </p>
             <img
                 src="/images/home/wave_yellow3.svg"
-                className="absolute w-52 right-0 -top-14"
+                className="absolute w-52 md:right-0 -right-36 -top-14"
             />
             <img
                 src="/images/home/wave_blue.svg"
-                className="absolute w-80 left-0 -bottom-5"
+                className="absolute w-80 md:left-0 -left-48 -bottom-5"
             />
 
             <ul
@@ -90,9 +90,9 @@ export default function RecentBlocks() {
                     generateRecentBlocks()
                 )}
             </ul>
-            <div className="block text-center h-20 mb-10">
+            <div className="block text-center h-20 mb-10 relative z-10">
                 <Link href="/transactions" passHref>
-                    <a className="text-center py-5 px-32 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
+                    <a className="text-center py-5 md:px-32 px-10 rounded-md shadow bg-sky-400 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl">
                         View More
                     </a>
                 </Link>

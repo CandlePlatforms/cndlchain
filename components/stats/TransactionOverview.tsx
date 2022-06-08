@@ -45,7 +45,7 @@ export default function TransactionOverview({ transaction, index }: Props) {
         <li
             key={transaction?.id}
             className={`col-span-1 rounded shadow divide-y pb-2 divide-gray-700/50 bg-gradient-to-b from-[#478CCA7F] to-[#4BB7E87F] ${
-                index % 2 == 1 ? 'mt-14' : 'mb-14'
+                index % 2 == 1 ? 'lg:mt-14' : 'lg:mb-14'
             }`}
         >
             <div className="w-full flex items-center justify-between p-6 space-x-6">
