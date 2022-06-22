@@ -36,14 +36,14 @@
   },
   {
     "isNew": true,
-    "description": "Onramp to ZkSync",
+    "description": "DEX on Candle",
     "img": "on-juno.png",
-    "title": "OnJuno",
+    "title": "Carthage",
     "type": [
       "Gateway"
     ],
-    "twitter": "https://twitter.com/OnJunoHQ",
-    "website": "https://www.onjuno.com"
+    "twitter": "https://twitter.com/carthage",
+    "website": "https://dex.cndlchain.com"
   },
   {
     "isNew": true,

@@ -9,7 +9,7 @@ import ConnectWalletButton from '../../ConnectWalletButton';
 const navigations = [
     { name: 'Solutions', href: '/solutions' },
     { name: 'About', href: '/about' },
-    { name: 'Documentation', href: '/docs' },
+    { name: 'Documentation', href: 'https://docs.candlelabs.org' },
     { name: 'Ecosystems', href: '/ecosystems' },
     { name: 'Blog', href: '/blog' },
 ];
