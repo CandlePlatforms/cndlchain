@@ -24,7 +24,7 @@ export default function EcosystemsPage() {
                 <h3 className="mt-4 text-zinc-300 text-center">
                     Explore some of the hundreds of projects
                     <br />
-                    from DeFi to NFTs building on zkSync.
+                    from DeFi to NFTs building on Candle.
                 </h3>
 
                 <div className="text-center mt-3 flex flex-wrap justify-center">
