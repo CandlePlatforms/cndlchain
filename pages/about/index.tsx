@@ -30,34 +30,19 @@ export default function AboutPage() {
 
     const dataForJourney = [
         {
-            date: '2020 - present',
+            date: '2022 - present',
             icon: <LogoIcon/ >,
             title: 'CANDLE MAINNET is open for developers 🎉!',
         },
         {
-            date: '2019 - 2020',
-            icon: <MetaMaskIcon />,
-            title: 'Launch Candle!',
-        },
-        {
-            date: '2018 - 2019',
-            icon: <MetaMaskIcon />,
-            title: 'Launch Beta',
-        },
-        {
-            date: '2017 - 2018',
-            icon: <MetaMaskIcon />,
-            title: 'Launch Alpha',
-        },
-        {
-            date: 'October 2017',
+            date: 'October 2021',
             icon: <MetaMaskIcon />,
             title: 'Research on Ethereum',
         },
         {
-            date: 'March 2017',
+            date: 'March 2021',
             icon: <MetaMaskIcon />,
-            title: 'Meeting in garag',
+            title: 'Meeting in garage',
         },
     ];
 
