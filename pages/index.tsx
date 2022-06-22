@@ -113,21 +113,21 @@ export default function HomePage() {
     const renderParagraph2 = () => {
         const list = [
             {
-                title: 'Fast & Scalable',
+                title: 'Scalable',
                 description:
-                    'Candle believes in Web3 for all. It is a decentralised EVM based scaling platform that enables',
+                    'Dedicated blockchains, scalable consensus algorithms, custom Wasm execution environments',
                 image: 'fast_scalable.svg',
             },
             {
-                title: 'Zero-to-Low Gas Fees',
+                title: 'Security',
                 description:
-                    'Candle believes in Web3 for all. It is a decentralised EVM based scaling platform that enables',
+                    'Modular ''security as a service'', provided either by Ethereum or by a pool of professional validators',
                 image: 'zero_to_low.svg',
             },
             {
-                title: 'Secure',
+                title: 'Developer Experience',
                 description:
-                    'Candle believes in Web3 for all. It is a decentralised EVM based scaling platform that enables',
+                    'Equivalent to Ethereum, no protocol level knowledge required, no token deposits, fees or permission',
                 image: 'secure.svg',
             },
             {
@@ -137,15 +137,15 @@ export default function HomePage() {
                 image: 'decentralized.svg',
             },
             {
-                title: 'Eco-Friendly',
+                title: 'Zero to low cost',
                 description:
-                    'Candle believes in Web3 for all. It is a decentralised EVM based scaling platform that enables',
+                    'Proof of stake tech enables feeless transactions.',
                 image: 'eco_friendly.svg',
             },
             {
-                title: 'Community Governed',
+                title: 'ETH Compatibility',
                 description:
-                    'Candle believes in Web3 for all. It is a decentralised EVM based scaling platform that enables',
+                    'Industry dominance, established tech stack, tools, languages, standards, enterprise adoption',
                 image: 'community_governed.svg',
             },
         ];
