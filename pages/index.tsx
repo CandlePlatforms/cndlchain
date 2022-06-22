@@ -121,7 +121,7 @@ export default function HomePage() {
             {
                 title: 'Security',
                 description:
-                    'Modular ''security as a service'', provided either by Ethereum or by a pool of professional validators',
+                    'Modular security-as-a-service, provided by PoS',
                 image: 'zero_to_low.svg',
             },
             {
