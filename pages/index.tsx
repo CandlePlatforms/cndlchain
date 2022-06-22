@@ -92,11 +92,11 @@ export default function HomePage() {
                             </p>
 
                             <Link
-                                href={account ? '/wallets' : '/login'}
+                                href="https://forms.gle/b4DTKPFgir5txgST8"
                                 passHref
                             >
                                 <a className="text-center py-4 px-12 rounded-md shadow bg-white/[.2] text-white font-medium hover:bg-white/[.5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900 ml-auto mr-auto font-bold text-2xl flex items-center">
-                                    Candle Mainnet is open for developers
+                                  Sign up for Candle Beta
                                     <img
                                         src="/images/home/icon_btn_next.svg"
                                         className="w-10 ml-5"
@@ -197,7 +197,7 @@ export default function HomePage() {
                         className="absolute -bottom-40 -right-10 w-1/4"
                     />
                 </div>
-                
+
                 <StatsOverview />
                 <img src="/images/home/wave_border2.png" className="w-full" />
             </div>
@@ -271,7 +271,7 @@ export default function HomePage() {
                                 </button>
                             </Link>
                             <p className="text-white text-md text-stone-300">
-                                Connect your preffered wallet here
+                                Connect your prefered wallet here
                             </p>
                         </div>
                     </div>
